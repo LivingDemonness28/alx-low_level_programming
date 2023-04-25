@@ -41,8 +41,8 @@ else
 {
 _putchar((times % 10) + '0');
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
 }
