@@ -35,7 +35,7 @@ _putchar(' ');
 _putchar((num3 / 10) + '0');
 _putchar((num3 % 10) + '0');
 }
-else
+else if (num3 >= 100)
 {
 _putchar(',');
 _putchar(' ');
