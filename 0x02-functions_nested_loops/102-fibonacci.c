@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - print the first 50 fibonacci numbers
  * Return: always 0
@@ -16,7 +15,7 @@ j = sum;
 printf("%lu", sum);
 if (count == 49)
 {
-_putchar('\n');
+printf('\n');
 }
 else
 {
