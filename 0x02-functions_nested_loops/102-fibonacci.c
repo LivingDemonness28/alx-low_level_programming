@@ -6,7 +6,8 @@
 */
 int main(void)
 {
-unsigned long count, i = 0, j = 1, sum;
+int count;
+unsigned long i = 0, j = 1, sum;
 for (count = 0; count < 50; count++)
 {
 sum = i + j;
