@@ -14,7 +14,7 @@ j = sum;
 printf("%lu", sum);
 if (count == 49)
 {
-_putchar('\n')
+_putchar('\n');
 }
 else
 {
