@@ -5,16 +5,11 @@
 */
 int main(void)
 {
-int count;
-unsigned long i = 0, j = 1, k, m, n, p, carry;
-
+unsigned long count, i = 0, j = 1, k, m, n, p, carry;
 count = 0;
-
 for (count = 1; count <= 91; count++)
 {
-k = i + j;
-i = j;
-j = k;
+k = i + j, i = j, j = k;
 printf("%lu, ", k);
 }
 m = i % 1000;
