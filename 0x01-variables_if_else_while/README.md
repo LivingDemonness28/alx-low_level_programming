@@ -180,7 +180,7 @@
                 <li>All numbers should be printed with two digits, 1 should be printed as 01</li>
                 <li>The combination of numbers must be separated by comma, followed by a space</li>
                 <li>The combinations of numbers should be printed in ascending order</li>
-                <li>00 001 and 01 00 are considered as the same combination of the numbers 0 and 1</li>
+                <li>00 01 and 01 00 are considered as the same combination of the numbers 0 and 1</li>
                 <li>You can only use the putchar function (every other function (printf, puts, etc...) is forbidden)</li>
                 <li>You can only use putchar eight times maximum in your code</li>
                 <li>You are not allowed to use any variable of type char</li>
