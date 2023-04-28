@@ -1,4 +1,4 @@
-<h1>00x04. C - More functions, more nested loops</h1>
+<h1>0x04. C - More functions, more nested loops</h1>
 
 <table>
     <tr>
