@@ -5,8 +5,7 @@
  * main - finds and prints the largest prime factor of the number 612852475143
  * followed by a new line
  * Return: Always 0 (Success)
-*/
-
+ */
 int main(void)
 {
 long int n;
@@ -30,10 +29,11 @@ max = i;
 n = n / i;
 }
 }
+
 if (n > 2)
-{
 max = n;
-}
-printf("$ld\n", max);
+
+printf("%ld\n", max);
+
 return (0);
 }
