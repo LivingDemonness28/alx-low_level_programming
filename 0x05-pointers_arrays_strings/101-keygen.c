@@ -26,7 +26,7 @@ if ((2772 - sum) - '0' < 78)
 {
 n = 2772 - sum - '0';
 sum += n;
-_putchar(n + '0');
+putchar(n + '0');
 break;
 }
 }
