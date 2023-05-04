@@ -31,7 +31,39 @@
         </td>
     </tr>
     <tr>
-        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x01-variables_if_else_while" target="_blanket">0x01-variables_if_else_while</a></h2></td>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x02-functions_nested_loops" target="_blanket">0x02-functions_nested_loops</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x03-debugging" target="_blanket">0x03-debugging</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops" target="_blanket">0x04-more_functions_nested_loops</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings" target="_blanket">0x05-pointers_arrays_strings</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings" target="_blanket">0x06-pointers_arrays_strings</a></h2></td>
         <td>
             <ul>
                 <li></li>
