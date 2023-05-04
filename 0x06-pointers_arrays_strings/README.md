@@ -18,5 +18,13 @@
         <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/0-strcat.c" target="_blank">0-strcat.c</a></h2>
         <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/0-main.c" target="_blank">0-main.c</a></h2>
         </td>
+        <td>
+            <p>Write a function that concatenates two strings.</p>
+            <ul>
+                <li>Prototype: char *_strcat(char *dest, char *src);</li>
+                <li>This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte</li>
+                <li>Returns a pointer to the resulting string dest</li>
+            </ul>
+        </td>
     </tr>
 </table>
