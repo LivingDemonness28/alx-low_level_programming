@@ -13,4 +13,10 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/_putchar.c" target="_blank">_putchar.c</a></h2></td>
         <td>The putchar function file.</td>
     </tr>
+    <tr>
+        <td>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/0-strcat.c" target="_blank">0-strcat.c</a></h2>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/0-main.c" target="_blank">0-main.c</a></h2>
+        </td>
+    </tr>
 </table>
