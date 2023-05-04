@@ -58,4 +58,17 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/3-strcmp.c" target="_blank">3-strcmp.c</a></h2>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/3-main.c" target="_blank">3-main.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that compares two strings.</p>
+            <ul>
+                <li>Prototype: int _strcmp(char *s1, char *s2);</li>
+                <li>Your function should work exactly like strcmp</li>
+            </ul>
+        </td>
+    </tr>
 </table>
