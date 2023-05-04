@@ -27,4 +27,17 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/1-strncat.c" target="_blank">1-strncat.c</a></h2>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/1-main.c" target="_blank">1-main.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that copies a string.</p>
+            <ul>
+                <li>Prototype: char *_strncpy(char *dest, char *src, int n);</li>
+                <li>Your function should work exactly like strncpy</li>
+            </ul>
+        </td>
+    </tr>
 </table>
