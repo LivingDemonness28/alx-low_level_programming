@@ -109,4 +109,25 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/7-leet.c" target="_blank">7-leet.c</a></h2>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/7-main.c" target="_blank">7-main.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that encodes a string into <a href="https://en.wikipedia.org/wiki/Leet" target="_blank">1337</a></p>
+            <ul>
+                <li>Letters a and A should be replaced by 4</li>
+                <li>Letters e and E should be replaced by 3</li>
+                <li>Letters o and O should be replaced by 0</li>
+                <li>Letters t and T should be replaced by 7</li>
+                <li>Letters l and L should be replaced by 1</li>
+                <li>Prototype: char *leet(char *);</li>
+                <li>You can only use one if in your code</li>
+                <li>You can only use two loops in your code</li>
+                <li>You are not allowed to use switch</li>
+                <li>You are not allowed to use any ternary operation</li>
+            </ul>
+        </td>
+    </tr>
 </table>
