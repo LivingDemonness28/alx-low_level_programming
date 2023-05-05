@@ -17,7 +17,7 @@ if (*(str + i) >= 'a' && *(str + i) <= 'z')
 {
 if (i == 0)
 {
-*(str + i) = *(str + i) - 32;
+*(str + i) = *(str + i) -32;
 }
 else
 {
@@ -25,7 +25,7 @@ for (j = 0; j <= 12; j++)
 {
 if (a[j] == *(str + i - 1))
 {
-*(str + i) = *(str + i) - 32;
+*(str + i) = *(str + i) -32;
 }
 }
 }
