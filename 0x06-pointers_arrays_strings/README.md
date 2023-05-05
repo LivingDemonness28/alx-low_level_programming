@@ -96,4 +96,17 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/6-cap_string.c" target="_blank">6-cap_string.c</a></h2>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/6-main.c" target="_blank">6-main.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that capitalizes all words of a string.</p>
+            <ul>
+                <li>Prototype: char *cap_string(char *);</li>
+                <li>Separators of words: space, tabulation, new line, , , ; , . , ! , ? , " , ( , ) , { , and }</li>
+            </ul>
+        </td>
+    </tr>
 </table>
