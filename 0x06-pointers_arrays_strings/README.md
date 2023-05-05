@@ -84,4 +84,16 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/5-string_toupper.c" target="_blank">5-string_toupper.c</a></h2>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/5-main.c" target="_blank">5-main.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that changes all lowercase letters of a string to uppercase.</p>
+            <ul>
+                <li>Prototype: char *string_toupper(char *);</li>
+            </ul>
+        </td>
+    </tr>
 </table>
