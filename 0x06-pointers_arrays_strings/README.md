@@ -71,4 +71,17 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/4-rev_array.c" target="_blank">4-rev_array.c</a></h2>
+        <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/4-main.c" target="_blank">4-main.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that reverses the content of an array of integers.</p>
+            <ul>
+                <li>Prototype: void reverse_array(int *a, int n);</li>
+                <li>Where n is the number of elements of the array</li>
+            </ul>
+        </td>
+    </tr>
 </table>
