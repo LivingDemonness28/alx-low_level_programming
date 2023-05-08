@@ -6,11 +6,25 @@
         <td><h2><strong>DESCRIPTION</strong></h2></td>
     </tr>
     <tr>
-        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/main.h" target="_blank">main.h</a></h2></td>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/main.h" target="_blank">main.h</a></h2></td>
         <td>The header file containing all functions prototypes.</td>
     </tr>
     <tr>
-        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x06-pointers_arrays_strings/_putchar.c" target="_blank">_putchar.c</a></h2></td>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/_putchar.c" target="_blank">_putchar.c</a></h2></td>
         <td>The putchar function file.</td>
+    </tr>
+    <tr>
+        <td>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/0-main.c">0-main.c</a></h2>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/0-memset.c">0-memset.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that fills memory with a constant byte.</p>
+            <ul>
+                <li>Prototype: char *_memset(char *s, char b, unsigned int n);</li>
+                <li>The _memset() function fills the first n bytes of the memory area pointed to by s with the constant byte b</li>
+                <li>Return a pointer to the memory area s</li>
+            </ul>
+        </td>
     </tr>
 </table>
