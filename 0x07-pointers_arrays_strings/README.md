@@ -54,4 +54,17 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/3-main.c">3-main.c</a></h2>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/3-strspn.c">3-strspn.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that gets the length of a prefix substring.</p>
+            <ul>
+                <li>Prototype: unsigned int _strspn(char *s, char *accept);</li>
+                <li>Returns the number of bytes in the initial segment of s which consist only of bytes from accept</li>
+            </ul>
+        </td>
+    </tr>
 </table>
