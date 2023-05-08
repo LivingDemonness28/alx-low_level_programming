@@ -95,4 +95,16 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/7-main.c">7-main.c</a></h2>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/7-print_chessboard.c">7-print_chessboard.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that prints the chessboard.</p>
+            <ul>
+                <li>Prototype: void print_chessboard(char (*a)[8]);</li>
+            </ul>
+        </td>
+    </tr>
 </table>
