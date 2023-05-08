@@ -10,7 +10,7 @@ void print_diagsums(int *a, int size)
 {
 int x, y, z;
 
-for (z = 0;  z < size; z++)
+for (z = 0; z < size; z++)
 {
 x = x + a[z * size + z];
 }
