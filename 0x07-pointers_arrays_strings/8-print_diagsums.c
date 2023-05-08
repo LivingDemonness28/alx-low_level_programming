@@ -14,9 +14,9 @@ for (z = 0;  z < size; z++)
 {
 x = x + a[z * size + z];
 }
-for (z = size -1;  z >= 0; z--)
+for (z = size - 1;  z >= 0; z--)
 {
-y += a[z * size + (size -z -1)];
+y += a[z * size + (size - z - 1)];
 }
 printf("%d, %d\n", x, y);
 }
