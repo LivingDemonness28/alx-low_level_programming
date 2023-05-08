@@ -67,4 +67,18 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/4-main.c">4-main.c</a></h2>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/4-strpbrk.c">4-strpbrk.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that searches a string for any of a set of bytes.</p>
+            <ul>
+                <li>Prototype: char *_strpbrk(char *s, char *accept);</li>
+                <li>The _strpbrk() function locates the first occurrence in the string s of any of the bytes in the string accept</li>
+                <li>Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found</li>
+            </ul>
+        </td>
+    </tr>
 </table>
