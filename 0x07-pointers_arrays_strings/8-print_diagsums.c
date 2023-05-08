@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_diagsums - Entry point
  * @a: input
@@ -8,8 +9,8 @@
  */
 void print_diagsums(int *a, int size)
 {
-int x;
-int y;
+int x = 0;
+int y = 0;
 int z;
 
 for (z = 0; z < size; z++)
