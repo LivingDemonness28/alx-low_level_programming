@@ -30,7 +30,7 @@
     <tr>
         <td>
             <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/1-main.c">1-main.c</a></h2>
-            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/0-memcpy.c">0-memcpy.c</a></h2>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/1-memcpy.c">1-memcpy.c</a></h2>
         </td>
         <td>
             <p>Write a function that copies memory area.</p>
@@ -38,6 +38,19 @@
                 <li>Prototype: char *_memcpy(char *dest, char *src, unsigned int n);</li>
                 <li>The _memscpy() function copies n bytes from memory area src to memory area dest</li>
                 <li>Return a pointer to dest</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/2-main.c">2-main.c</a></h2>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/2-strchr.c">2-strchr.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that locates a character in a string.</p>
+            <ul>
+                <li>Prototype: char *_strchr(char *s, char c);</li>
+                <li>Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found</li>
             </ul>
         </td>
     </tr>
