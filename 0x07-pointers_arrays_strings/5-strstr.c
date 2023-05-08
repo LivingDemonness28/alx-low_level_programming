@@ -9,14 +9,17 @@ char *_strstr(char *haystack, char *needle)
 {
 while (*haystack != '\0')
 {
-while (*needle != '\0' && *haystack == *needle)
+char *h = haystack;
+char *n = needle;
+
+while (*n != '\0' && *h == *n)
 {
-haystack++;
-needle++;
+h++;
+n++;
 }
-if (*needle == '\0')
+if (*n == '\0')
 {
-return haystack;
+return (haystack);
 }
 haystack++;
 }
