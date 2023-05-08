@@ -81,4 +81,18 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/5-main.c">5-main.c</a></h2>
+            <h2><a href="ttps://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/5-strstr.c">5-strstr.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that locates a substring.</p>
+            <ul>
+                <li>Prototype: char *_strstr(char *haystack, char *needle);</li>
+                <li>The _strstr() function finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are not compared</li>
+                <li>Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.</li>
+            </ul>
+        </td>
+    </tr>
 </table>
