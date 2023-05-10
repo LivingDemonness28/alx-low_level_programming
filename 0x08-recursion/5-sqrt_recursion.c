@@ -15,7 +15,7 @@ if (square == n)
 {
 return (mid);
 }
-else if (square < n);
+else if (square < n)
 {
 return (_sqrt1(n, mid - 1, b));
 }
