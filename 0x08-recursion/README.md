@@ -35,4 +35,16 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x08-recursion/2-strlen_recursion.c" target="_blank">2-strlen_recursion.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x08-recursion/2-main.c" target="_blank">2-main.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that returns the length of a string.</p>
+            <ul>
+                <li>Prototype: int _strlen_reecursion(char *s);</li>
+            </ul>
+        </td>
+    </tr>
 </table>
