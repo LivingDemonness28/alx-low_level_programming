@@ -11,7 +11,7 @@ int _sqrt1(int n, int a, int b)
 int mid = (a + b) / 2;
 int root = mid * mid;
 
-if (a > b)
+if (a < b)
 return (-1);
 if (root == n)
 return (mid);
