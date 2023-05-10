@@ -22,5 +22,17 @@
                 <li>Prototype: void _puts_recursion(char *s);</li>
             </ul>
         </td>
-    </td>
+    </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x08-recursion/1-print_rev_recursion.c" target="_blank">1-print_rev_recursion.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x08-recursion/1-main.c" target="_blank">1-main.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that prints a string in reverse.</p>
+            <ul>
+                <li>Prototype: void _print_rev_recursion(char *s)</li>
+            </ul>
+        </td>
+    </tr>
 </table>
