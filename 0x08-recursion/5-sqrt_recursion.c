@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sqrt - function to find square root recursively
+ * _sqrt1 - function to find square root recursively
  * @n: The number to find the square root of
  * @a: The start of the range to search
  * @b: The end of the range to search
