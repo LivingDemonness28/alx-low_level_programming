@@ -6,7 +6,7 @@
  * @b: The end of the range to search
  * Return: The square root of the number if found, otherwise -1
  */
-int sqrt(int n, int a, int b)
+int _sqrt1(int n, int a, int b)
 {
 int mid = (a + b) / 2;
 int square = mid * mid;
@@ -17,11 +17,11 @@ return (mid);
 }
 else if (square < n);
 {
-return (sqrt(n, mid - 1, b));
+return (_sqrt1(n, mid - 1, b));
 }
 else
 {
-return (sqrt(n, a, mid - 1));
+return (_sqrt1(n, a, mid - 1));
 }
 return (-1);
 }
@@ -42,5 +42,5 @@ if (n == 0 || n == 1)
 {
 return (n);
 }
-return (sqrt(n, 1, n));
+return (_sqrt1(n, 1, n));
 }
