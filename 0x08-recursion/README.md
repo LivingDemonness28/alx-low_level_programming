@@ -67,11 +67,10 @@
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x08-recursion/4-main.c" target="_blank">4-main.c</a></h2>
         </td>
         <td>
-            <p>Write a function that returns the factorial of a given number.</p>
+            <p>Write a function that returns the value of x raised to the power of y.</p>
             <ul>
-                <li>Prototype: int factorial (int n);</li>
-                <li>If n is lower than 0, the function should return -1 to indicate an error</li>
-                <li>Factorial of 0 is 1</li>
+                <li>Prototype: int _pow_recursion(int x, int y);</li>
+                <li>If y is lower than 0, the function should return -1</li>
             </ul>
         </td>
     </tr>
