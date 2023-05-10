@@ -9,21 +9,16 @@
 int _sqrt1(int n, int a, int b)
 {
 int mid = (a + b) / 2;
-int square = mid * mid;
+int root = mid * mid;
 
-if (square == n)
-{
-return (mid);
-}
-else if (square < n)
-{
-return (_sqrt1(n, mid - 1, b));
-}
-else
-{
-return (_sqrt1(n, a, mid - 1));
-}
+if (a > b)
 return (-1);
+if (root == n)
+return (mid);
+else if (root > n)
+return (_sqrt1(n, a, mid - 1));
+else
+return (_sqrt1(n, mid + 1, b));
 }
 
 /**
@@ -35,12 +30,8 @@ return (-1);
 int _sqrt_recursion(int n)
 {
 if (n < 0)
-{
 return (-1);
-}
 if (n == 0 || n == 1)
-{
 return (n);
-}
 return (_sqrt1(n, 1, n));
 }
