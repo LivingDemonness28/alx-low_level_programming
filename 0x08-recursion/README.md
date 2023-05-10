@@ -74,4 +74,17 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x08-recursion/5-sqrt_recursion.c" target="_blank">5-sqrt_recursion.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x08-recursion/5-main.c" target="_blank">5-main.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that returns the natural square root of a number.</p>
+            <ul>
+                <li>Prototype: int _sqrt_recursion(int n);</li>
+                <li>If n does not have a natural square root, the function should return -1</li>
+            </ul>
+        </td>
+    </tr>
 </table>
