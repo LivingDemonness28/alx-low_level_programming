@@ -18,7 +18,7 @@ return (_prime1(n, n - 1));
  * @a: iterator
  * Return: 1 if n is prime, 0 if not
  */
-int actual_prime(int n, int a)
+int _prime1(int n, int a)
 {
 if (a == 1)
 return (1);
