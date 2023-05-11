@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * is_prime_number - says if an integer is a prime number or not
  * @n: number to evaluate
@@ -7,9 +8,7 @@
 int is_prime_number(int n)
 {
 if (n <= 1)
-{
 return (0);
-}
 return (_prime1(n, n - 1));
 }
 
@@ -19,15 +18,11 @@ return (_prime1(n, n - 1));
  * @a: iterator
  * Return: 1 if n is prime, 0 if not
  */
-int _prime1(int n, int a)
+int actual_prime(int n, int a)
 {
 if (a == 1)
-{
 return (1);
-}
-if (n % 1 == 0 && a > 0)
-{
+if (n % a == 0 && a > 0)
 return (0);
-}
 return (_prime1(n, a - 1));
 }
