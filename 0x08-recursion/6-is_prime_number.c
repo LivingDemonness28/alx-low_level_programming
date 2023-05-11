@@ -10,7 +10,7 @@ if (n <= 1)
 {
 return (0);
 }
-return _prime1(n, n - 1);
+return (_prime1(n, n - 1));
 }
 
 /**
