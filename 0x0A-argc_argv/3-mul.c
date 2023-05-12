@@ -43,7 +43,7 @@ return (re * sign);
 
 int main(int argc, char *argv[])
 {
-int i, j, res;
+int i, j, re;
 
 if (argc != 3)
 {
@@ -53,7 +53,7 @@ return (1);
 
 i = atoi(argv[1]);
 j = atoi(argv[2]);
-res = i * j;
+re = i * j;
 printf("%d\n", res);
 return (0);
 }
