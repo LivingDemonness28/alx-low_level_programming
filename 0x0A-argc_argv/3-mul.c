@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -7,53 +6,61 @@
  * @s: string to be converted
  * Return: the int converted from the string
  */
-int atoi(const char *s)
+int _atoi(char *s)
 {
-int re = 0, sign = 1, i = 0;
+int i, j, n, len, f, dig;
 
-while (str[i] == ' ')
-{
-i++;
-}
+i = 0;
+j = 0;
+n = 0;
+len = 0;
+f = 0;
+dig = 0;
 
-if (str[i] == '-')
+while (s[len] != '\0')
+len++;
+while (i < len && f == 0)
 {
-sign = -1;
+if (s[i] == '-')
+++d;
+if (s[i] >= '0' && s[i] <= '9')
+{
+dig = s[i] - '0';
+if (j % 2)
+dig = -dig;
+n = n * 10 + dig;
+f = 1;
+if (s[i + 1] < '0' || s[i + 1] > '9')
+break;
+f = 0;
+}
 i++;
 }
-else if (str[i] == '+')
-{
-i++;
-}
+if (f == 0)
+return (0);
 
-while (str[i] >= '0' && str[i] <= '9')
-{
-re = re * 10 + (str[i] - '0')
-i++;
-}
-return (re * sign);
+return (n);
 }
 
 /**
- * main - Entry point of the program
- * @argc: Number of command-line arguments
- * @argv: Array of command-line arguments
- * Return: 0 (Success) or 1 (Error)
+ * main - multiplies two numbers
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: 0 (Success), 1 (Error)
  */
-
 int main(int argc, char *argv[])
 {
-int i, j, re;
+int res, n1, n2;
 
-if (argc != 3)
+if (argc < 3 || argc > 3)
 {
 printf("Error\n");
 return (1);
 }
-
-i = atoi(argv[1]);
-j = atoi(argv[2]);
-re = i * j;
+n1 = _atoi(argv[1]);
+n2 = _atoi(argv[2]);
+res = n1 * n2;
 printf("%d\n", res);
 return (0);
 }
