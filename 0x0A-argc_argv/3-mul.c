@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - Program that takes first two integer arguments and prints the product
