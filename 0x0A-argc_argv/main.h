@@ -2,6 +2,6 @@
 #define main_h
 
 int _putchar(char);
-int name(int argc __attribute__((unused)), char *argv[]);
+int main(int argc __attribute__((unused)), char *argv[]);
 
 #endif
