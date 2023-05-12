@@ -42,4 +42,15 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0A-argc_argv/3-mul.c" target="_blank">3-mul.c</a></h2></td>
+        <td>
+            <p>Write a program that multiplies two numbers.</p>
+            <ul>
+                <li>Your program should print the result of the multiplication, followed by a new line</li>
+                <li>You can assume that the two numbers and result of the multiplication can be stored in an integer</li>
+                <li>If the program does not receive two arguments, your program should print Error, followed by a new line, and return 1</li>
+            </ul>
+        </td>
+    </tr>
 </table>
