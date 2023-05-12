@@ -32,4 +32,14 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0A-argc_argv/2-args.c" target="_blank">2-args.c</a></h2></td>
+        <td>
+            <p>Write a program that prints all the arguments it receives.</p>
+            <ul>
+                <li>All arguments should be printed, including the first one</li>
+                <li>Only print one argument per line, ending with a new line</li>
+            </ul>
+        </td>
+    </tr>
 </table>
