@@ -23,4 +23,13 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0A-argc_argv/1-args.c" target="_blank">1-args.c</a></h2></td>
+        <td>
+            <p>Write a program that prints the number of arguments passed into it.</p>
+            <ul>
+                <li>Your program should print a number, followed a new line.</li>
+            </ul>
+        </td>
+    </tr>
 </table>
