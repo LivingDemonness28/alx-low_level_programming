@@ -53,4 +53,16 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0A-argc_argv/4-add.c" target="_blank">4-add.c</a></h2></td>
+        <td>
+            <p>Write a program that adds positive numbers.</p>
+            <ul>
+                <li>Print the result, followed by a new line</li>
+                <li>If no number is passed to the program, print 0, followed by a new line</li>
+                <li>If one of the number contains symbols that are not digits, print Error, followed by a new line, and return 1</li>
+                <li>You can assume that numbers and the addition of all the numbers can be stored in an int</li>
+            </ul>
+        </td>
+    </tr>
 </table>
