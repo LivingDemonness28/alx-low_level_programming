@@ -1,56 +1,31 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * str_to_integer - Converts a string to an integer
- * @str: The string to convert
- * Return: The converted integer
- */
-int str_to_integer(char *str)
-{
-int sign = 1;
-int result = 0;
-int i = 0;
-
-if (str == NULL)
-return (0);
-
-if (str[0] == '-')
-{
-sign = -1;
-i++;
-}
-
-for (; str[i] != '\0'; i++)
-{
-if (str[i] >= '0' && str[i] <= '9')
-result = result * 10 + (str[i] - '0');
-else
-break;
-}
-
-return (sign * result);
-}
-
-/**
- * main - Entry point
- * @argc: The argument count
- * @argv: The argument vector
- * Return: 0 on success, 1 on error
+ * main - Program that takes first two integer arguments and prints the product
+ * @argc: Number of command line arguments
+ * @argv: Array name
+ * Return: 1 if not enough arguments passed in, 0 otherwise
  */
 int main(int argc, char *argv[])
 {
-int num1, num2, result;
+int i, j;
 
-if (argc != 3)
+if (argc == 1 || argc == 2)
 {
 printf("Error\n");
 return (1);
 }
+else
+{
+j = 1;
 
-num1 = str_to_integer(argv[1]);
-num2 = str_to_integer(argv[2]);
-result = num1 * num2;
-
-printf("%d\n", result);
+for (i = 1; i < 3; i++)
+{
+j *= atoi(argv[i]);
+}
+printf("%d\n", j);
+}
 return (0);
 }
