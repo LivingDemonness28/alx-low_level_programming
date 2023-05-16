@@ -42,4 +42,19 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/2-main.c" target="_blank">2-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/2-str_concat.c" target="_blank">2-str_concat.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that concatenates two strings.</p>
+            <ul>
+                <li>Prototype: char *str_concat(char *s1, char *s2);</li>
+                <li>The returned pointer should point to a newly allocated space in memory which contains the contents of s1, followed by the contents of s2, and null terminated</li>
+                <li>if NULL is passed, treat it as an empty string</li>
+                <li>The function should return NULL on failure</li>
+            </ul>
+        </td>
+    </tr>
 </table>
