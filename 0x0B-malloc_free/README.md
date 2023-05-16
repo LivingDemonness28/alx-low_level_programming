@@ -13,4 +13,18 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/_putchar.c" target="_blank">_putchar.c</a></h2></td>
         <td>The putchar function file.</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/0-main.c" target="_blank">0-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/0-create_array.c" target="_blank">0-create_array.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that creates an array of chars, and initializes it with a specific char.</p>
+            <ul>
+                <li>Prototype: char *create_array(unsigned int size, char c);</li>
+                <li>Returns NULL if size = 0</li>
+                <li>Returns a pointer to the array, or NULL if it fails</li>
+            </ul>
+        </td>
+    </tr>
 </table>
