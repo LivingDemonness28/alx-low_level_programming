@@ -30,7 +30,7 @@ if (concatenated == NULL)
 return (NULL);
 
 for (i = 0; i < len1; i++)
-concatenated[i] = s1;
+concatenated[i] = s1[i];
 
 for (j = 0; j < len2; j++, i++)
 concatenated[j] = s2[j];
