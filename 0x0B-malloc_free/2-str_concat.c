@@ -32,7 +32,7 @@ cc = malloc(sizeof(char) * (total + 1));
 if (cc == NULL)
 return (NULL);
 
-for (i = 0; i < len1; i++){
+for (i = 0; i < len1; i++)
 cc[i] = s1[i];
 
 for (j = 0; j < len2; j++, i++)
