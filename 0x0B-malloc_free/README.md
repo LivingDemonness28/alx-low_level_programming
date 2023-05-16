@@ -27,4 +27,19 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/1-main.c" target="_blank">1-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/1-strdup.c" target="_blank">1-strdup.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.</p>
+            <ul>
+                <li>Prototype: char *_strdup(char *str);</li>
+                <li>The _strdup() function returns a pointer to a new string which is a duplicate of the string str. Memory for the new string is obtained with malloc, and can be freed with free.</li>
+                <li>Returns NULL if str = NULL</li>
+                <li>On success, the _strdup function returns a pointer to the duplicated string. It returns NULL if insufficient memory was available</li>
+            </ul>
+        </td>
+    </tr>
 </table>
