@@ -30,6 +30,7 @@ while (s2[len2] != '\0')
 len2++;
 }
 total = len1 + len2;
+cc = malloc(sizeof(char) * (total + 1));
 
 if (cc == NULL)
 {
