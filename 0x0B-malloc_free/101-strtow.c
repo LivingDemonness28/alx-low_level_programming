@@ -28,7 +28,7 @@ is_word = 0;
 }
 i++;
 }
-return count;
+return (count);
 }
 
 /**
@@ -43,7 +43,7 @@ char **word_array;
 int i = 0, j = 0, k = 0, word_len = 0;
 
 if (str == NULL || *str == '\0')
-return NULL;
+return (NULL);
 
 words = count_words(str);
 if (words == 0)
@@ -51,7 +51,7 @@ return NULL;
 
 word_array = malloc((words + 1) * sizeof(char *));
 if (word_array == NULL)
-return NULL;
+return (NULL);
 
 while (str[i] != '\0')
 {
@@ -66,7 +66,7 @@ if (word_array[j] == NULL)
 for (l = 0; l < j; l++)
 free(word_array[l]);
 free(word_array);
-return NULL;
+return (NULL);
 }
 for (m = 0; m < word_len; m++, k++)
 word_array[j][m] = str[k];
@@ -78,5 +78,5 @@ word_len = 0;
 i++;
 }
 word_array[words] = NULL;
-return word_array;
+return (word_array);
 }
