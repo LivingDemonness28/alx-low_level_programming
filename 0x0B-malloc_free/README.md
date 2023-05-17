@@ -100,4 +100,22 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/101-main.c" target="_blank">101-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/101-strtow.c" target="_blank">101-strtow.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that splits a string into words.</p>
+            <ul>
+                <li>Prototype: char **strtow(char *str);</li>
+                <li>The function returns a pointer to an array of strings (words)</li>
+                <li>Each element of this array should contain a single word, null-terminated</li>
+                <li>The last element of the returned array should be NULL</li>
+                <li>Words are separated by spaces</li>
+                <li>Returns NULL if str == NULL or str == ""</li>
+                <li>If your function fails, it should return NULL</li>
+            </ul>
+        </td>
+    </tr>
 </table>
