@@ -39,7 +39,6 @@ free(word_array[l]);
 free(word_array);
 return NULL;
 }
-
 for (m = 0; m < word_len; m++, k++)
 word_array[j][m] = str[k];
 word_array[j][word_len] = '\0';
@@ -49,7 +48,6 @@ word_len = 0;
 }
 i++;
 }
-
 word_array[words] = NULL;
 return word_array;
 }
