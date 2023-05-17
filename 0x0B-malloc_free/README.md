@@ -85,4 +85,19 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/100-main.c" target="_blank">100-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/100-argstostr.c" target="_blank">100-argstostr.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that concatenates all the arguments of your program.</p>
+            <ul>
+                <li>Prototype: char *argstostr(int ac, char **av);</li>
+                <li>Returns NULL if ac == 0 or av == NULL</li>
+                <li>Returns a pointer to a new string, or NULL if it fails</li>
+                <li>Each argument should be followed by a \n in the new string</li>
+            </ul>
+        </td>
+    </tr>
 </table>
