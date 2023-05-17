@@ -16,7 +16,7 @@ int i = 0, j = 0, k = 0, word_len = 0;
 if (str == NULL || *str == '\0')
 return NULL;
 
-words = count_word(str);
+words = count_words(str);
 if (words == 0)
 return NULL;
 
