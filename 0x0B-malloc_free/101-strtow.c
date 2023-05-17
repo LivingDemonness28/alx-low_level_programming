@@ -51,7 +51,7 @@ if (str[i] == ' ' || str[i] == '\0')
 if (m)
 {
 z = i;
-s1 = (char *) malloc(sizeof(char) * (m + 1));
+s1 = (char *) malloc(sizeof(char) * (m));
 if (s1 == NULL)
 return (NULL);
 
