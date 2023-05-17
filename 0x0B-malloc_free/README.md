@@ -72,4 +72,17 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/4-main.c" target="_blank">4-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/4-free_grid.c" target="_blank">4-free_grid.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.</p>
+            <ul>
+                <li>Prototype: void free_grid(int **grid, int height);</li>
+                <li>Note that we will compile with your alloc_grid.c file. Make sure it compiles.</li>
+            </ul>
+        </td>
+    </tr>
 </table>
