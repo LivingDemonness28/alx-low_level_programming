@@ -54,7 +54,7 @@ for (m = 0; wordf < i; wordf++)
 p[j][m] = str[wordf];
 m++;
 }
-p[j][m] = '\0';
+arr1[j][m] = '\0';
 j++;
 }
 }
