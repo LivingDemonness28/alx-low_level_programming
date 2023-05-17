@@ -10,9 +10,9 @@
 int count_words(char *str)
 {
 int q = 0, r, s = 0;
-for (c = 0; str[c] != '\0'; c++)
+for (r = 0; str[r] != '\0'; r++)
 {
-if (str[c] == ' ')
+if (str[r] == ' ')
 q = 0;
 else if (q == 0)
 q = 1;
