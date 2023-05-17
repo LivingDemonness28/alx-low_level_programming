@@ -5,30 +5,20 @@
 /**
  * count_words - Counts the number of words in a string.
  * @str: The input string.
- *
  * Return: The number of words in the string.
  */
-
 int count_words(char *str)
 {
-int count = 0;
-int i = 0;
-int is_word = 0;
-
-while (str[i] != '\0')
+int q = 0, r, s = 0;
+for (c = 0; str[c] != '\0'; c++)
 {
-if (str[i] != ' ' && !is_word)
-{
-is_word = 1;
-count++;
+if (str[c] == ' ')
+q = 0;
+else if (q == 0)
+q = 1;
+s++;
 }
-else if (str[i] == ' ')
-{
-is_word = 0;
-}
-i++;
-}
-return (count);
+return (s);
 }
 
 /**
@@ -49,7 +39,7 @@ words = count_words(str);
 if (words == 0)
 return NULL;
 
-word_array = malloc((words) * sizeof(char *));
+word_array = malloc((words + 1) * sizeof(char *));
 if (word_array == NULL)
 return NULL;
 
@@ -65,7 +55,7 @@ if (str[i] != ' ' && str[i] != '.' && str[i] != '\n')
 word_len++;
 if (str[i + 1] == ' ' || str[i + 1] == '.' || str[i + 1] == '\n' || str[i + 1] == '\0')
 {
-word_array[j] = malloc((word_len) * sizeof(char));
+word_array[j] = malloc((word_len + 1) * sizeof(char));
 if (word_array[j] == NULL)
 {
 for (l = 0; l < j; l++)
