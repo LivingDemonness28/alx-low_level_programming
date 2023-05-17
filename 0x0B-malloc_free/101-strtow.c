@@ -40,6 +40,7 @@ char **strtow(char *str)
 {
 int words, i, j, k, word_len;
 char **word_array;
+int m, l;
 
 if (str == NULL || *str == '\0')
 return NULL;
@@ -67,14 +68,12 @@ if (str[i + 1] == ' ' || str[i + 1] == '.' || str[i + 1] == '\n' || str[i + 1] =
 word_array[j] = malloc((word_len + 1) * sizeof(char));
 if (word_array[j] == NULL)
 {
-int l;
 for (l = 0; l < j; l++)
 free(word_array[l]);
 free(word_array);
 return NULL;
 }
 
-int m;
 for (m = 0; m < word_len; m++, k++)
 word_array[j][m] = str[k];
 word_array[j][word_len] = '\0';
