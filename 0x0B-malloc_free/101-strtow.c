@@ -49,7 +49,7 @@ words = count_words(str);
 if (words == 0)
 return NULL;
 
-word_array = malloc((words + 1) * sizeof(char *));
+word_array = malloc((words + 2) * sizeof(char *));
 if (word_array == NULL)
 return NULL;
 
@@ -65,7 +65,7 @@ if (str[i] != ' ' && str[i] != '.' && str[i] != '\n')
 word_len++;
 if (str[i + 1] == ' ' || str[i + 1] == '.' || str[i + 1] == '\n' || str[i + 1] == '\0')
 {
-word_array[j] = malloc((word_len + 1) * sizeof(char));
+word_array[j] = malloc((word_len + 2) * sizeof(char));
 if (word_array[j] == NULL)
 {
 for (l = 0; l < j; l++)
