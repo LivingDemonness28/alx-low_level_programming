@@ -22,7 +22,7 @@ return (NULL);
 for (i = 0; i < ac; i++)
 tl += strlen(av[i]) + 1;
 
-cc = malloc(sizeof(char) * tl);
+cc = malloc(sizeof(char) * (tl + 1));
 if (cc == NULL)
 return (NULL);
 
