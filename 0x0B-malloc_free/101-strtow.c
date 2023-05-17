@@ -39,7 +39,7 @@ words = count_words(str);
 if (words == 0)
 return NULL;
 
-word_array = malloc((words + 2) * sizeof(char *));
+word_array = malloc((words + 1.5) * sizeof(char *));
 if (word_array == NULL)
 return NULL;
 
