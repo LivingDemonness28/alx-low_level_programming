@@ -57,4 +57,19 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/3-main.c" target="_blank">3-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0B-malloc_free/3-alloc_grid.c" target="_blank">3-alloc_grid.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that returns a pointer to a 2 dimensional array of integers.</p>
+            <ul>
+                <li>Prototype: int **alloc_grid(int width, int height);</li>
+                <li>Each element of the grid should be initialized to 0</li>
+                <li>The function should return NULL on failure</li>
+                <li>If width or height is 0 or negative, return NULL</li>
+            </ul>
+        </td>
+    </tr>
 </table>
