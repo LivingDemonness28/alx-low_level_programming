@@ -28,51 +28,45 @@ return (s);
  */
 char **strtow(char *str)
 {
-int words, i, j, k, word_len;
-char **word_array;
-int m, l;
+char **arr1, *s1;
+int i, j = 0, len = 0, words, m = 0, a, z;
 
-if (str == NULL || *str == '\0')
-return NULL;
+while (*(str + len))
+len++;
 
 words = count_words(str);
+
 if (words == 0)
-return NULL;
+return (NULL);
 
-word_array = malloc(sizeof(char *) * (words + 1));
-if (word_array == NULL)
-return NULL;
+arr1 = (char **) malloc(sizeof(char *) * (words + 1));
 
-i = 0;
-j = 0;
-k = 0;
-word_len = 0;
+if (arr1 == NULL)
+return (NULL);
 
-while (str[i] != '\0')
+for (i = 0; i <= len; i++)
 {
-if (str[i] != ' ' && str[i] != '.' && str[i] != '\n')
+if (str[i] == ' ' || str[i] == '\0')
 {
-word_len++;
-if (str[i + 1] == ' ' || str[i + 1] == '.' || str[i + 1] == '\n' || str[i + 1] == '\0')
+if (m)
 {
-word_array[j] = malloc((word_len + 1) * sizeof(char));
-if (word_array[j] == NULL)
-{
-for (l = 0; l < j; l++)
-free(word_array[l]);
-free(word_array);
-return NULL;
-}
+z = i;
+s1 = (char *) malloc(sizeof(char) * (m + 1));
+if (s1 == NULL)
+return (NULL);
 
-for (m = 0; m < word_len; m++, k++)
-word_array[j][m] = str[k];
-word_array[j][word_len] = '\0';
+while (a < b)
+*s1++ = str[a++];
+
+*s1 = '\0';
+arr1[j] = s1 - m;
 j++;
-word_len = 0;
+m = 0;
 }
 }
-i++;
+else if (m++ == 0)
+a = i;
 }
-word_array[words] = NULL;
-return word_array;
+arr1[j] = NULL;
+return (arr1);
 }
