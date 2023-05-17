@@ -55,7 +55,7 @@ s1 = (char *) malloc(sizeof(char) * (m + 1));
 if (s1 == NULL)
 return (NULL);
 
-while (a < b)
+while (a < z)
 *s1++ = str[a++];
 
 *s1 = '\0';
