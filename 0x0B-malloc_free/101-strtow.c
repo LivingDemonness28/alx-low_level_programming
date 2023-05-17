@@ -32,7 +32,7 @@ for (i = wordf ; str[i] != '\0'; i++)
 if (str[i] == ' ')
 break;
 count++;
-}
+
 *(arr1 + j) = (char *)malloc((count + 1) * sizeof(char));
 if (*(arr1 + j) == NULL)
 {
@@ -53,4 +53,5 @@ j++;
 }
 arr1[j] = NULL;
 return (arr1);
+}
 }
