@@ -50,6 +50,5 @@ i++;
 }
 
 word_array[words] = NULL;
-
 return word_array;
 }
