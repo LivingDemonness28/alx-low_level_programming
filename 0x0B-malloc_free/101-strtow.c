@@ -25,7 +25,7 @@ if (str[i] == ' ' && (str[i + 1] != ' ' || str[i + 1] == '\0'))
 w++;
 }
 arr1 = (char **)malloc((w + 1) * sizeof(char *));
-if (p == NULL)
+if (arr1 == NULL)
 return (NULL);
 for (wordf = 0; str[wordf] && j <= w; wordf++)
 {
