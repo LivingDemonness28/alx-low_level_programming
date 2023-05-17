@@ -55,7 +55,7 @@ return (NULL);
 
 while (str[i] != '\0')
 {
-if (str[i] != ' ')
+if (str[i] != ' ' && str[i] != '.' && str[i] != '\n')
 {
 word_len++;
 if (str[i + 1] == ' ' || str[i + 1] == '\0')
