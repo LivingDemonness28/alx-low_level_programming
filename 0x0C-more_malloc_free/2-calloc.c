@@ -24,5 +24,6 @@ if (ptr == NULL)
 return (NULL);
 
 memset(ptr, 0, ts);
-return (ptr);
+
+return ptr;
 }
