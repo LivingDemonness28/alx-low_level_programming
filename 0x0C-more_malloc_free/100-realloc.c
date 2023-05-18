@@ -27,12 +27,12 @@ if (new_size == old_size)
 {
 return (ptr);
 }
-np = malloc(new_size)
+np = malloc(new_size);
 
 if (np != NULL)
 {
 min_size = (old_size < new_size) ? old_size : new_size;
-memcpy(new_ptr, min_size);
+memcpy(np, ptr, min_size);
 free(ptr);
 }
 return (np);
