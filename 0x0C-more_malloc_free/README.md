@@ -27,4 +27,20 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/1-string_nconcat.c" target="_blank">1-string_nconcat.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/1-main.c" target="_blank">1-main.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that concatenates two strings.</p>
+            <ul>
+                <li>Prototype: char *string_nconcat(char *s1, char *s2, unsigned int n);</li>
+                <li>The returned pointer shall point to a newly allocated space in memory, which contains s1, followed by the first n bytes of s2, and null terminated</li>
+                <li>If the function fails, it should return NULL</li>
+                <li>If n is greater or equal to the length of s2 then use the entire string s2</li>
+                <li>if NULL is passed, treat it as an empty string</li>
+            </ul>
+        </td>
+    </tr>
 </table>
