@@ -45,17 +45,33 @@
     </tr>
     <tr>
         <td>
-            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/3-main.c" target="_blank">2-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/2-main.c" target="_blank">2-main.c</a></h2>
              <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/2-calloc.c" target="_blank">2-calloc.c</a></h2>
         </td>
         <td>
             <p>Write a function that allocates memory for an array, using malloc.</p>
             <ul>
                 <li>Prototype: void *_calloc(unsigned int nmemb, unsigned int size);</li>
-                <li>he _calloc function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.</li>
+                <li>The _calloc function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.</li>
                 <li>The memory is set to zero</li>
                 <li>If nmemb or size is 0, then _calloc returns NULL</li>
                 <li>If malloc fails, then _calloc returns NULL</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/3-main.c" target="_blank">3-main.c</a></h2>
+             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/3-array_range.c" target="_blank">3-array_range.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that creates an array of integers.</p>
+            <ul>
+                <li>Prototype: int *array_range(int min, int max);</li>
+                <li>The array created should contain all the values from min (included) to max (included), ordered from min to max</li>
+                <li>Return: the pointer to the newly created array</li>
+                <li>If min > max, return NULL</li>
+                <li>If malloc fails, return NULL</li>
             </ul>
         </td>
     </tr>
