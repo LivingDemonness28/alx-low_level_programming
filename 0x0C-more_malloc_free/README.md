@@ -62,7 +62,7 @@
     <tr>
         <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/3-main.c" target="_blank">3-main.c</a></h2>
-             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/3-array_range.c" target="_blank">3-array_range.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/3-array_range.c" target="_blank">3-array_range.c</a></h2>
         </td>
         <td>
             <p>Write a function that creates an array of integers.</p>
@@ -72,6 +72,27 @@
                 <li>Return: the pointer to the newly created array</li>
                 <li>If min > max, return NULL</li>
                 <li>If malloc fails, return NULL</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/100-main.c" target="_blank">100-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0C-more_malloc_free/100-realloc.c" target="_blank">100-realloc.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that reallocates a memory block using malloc and free</p>
+            <ul>
+                <li>Prototype: void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);</li>
+                <li>where ptr is a pointer to the memory previously allocated with a call to malloc: malloc(old_size)</li>
+                <li>old_size is the size, in bytes, of the allocated space for ptr</li>
+                <li>and new_size is the new size, in bytes of the new memory block</li>
+                <li>The contents will be copied to the newly allocated space, in the range from the start of ptr up to the minimum of the old and new sizes</li>
+                <li>If new_size > old_size, the “added” memory should not be initialized</li>
+                <li>If new_size == old_size do not do anything and return ptr</li>
+                <li>If ptr is NULL, then the call is equivalent to malloc(new_size), for all values of old_size and new_size</li>
+                <li>If new_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). Return NULL</li>
+                <li>Don’t forget to free ptr when it makes sense</li>
             </ul>
         </td>
     </tr>
