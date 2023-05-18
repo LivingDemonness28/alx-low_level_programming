@@ -7,7 +7,6 @@
  * @ptr: pointer to the memory previously allocated with malloc
  * @old_size: size of the allocated space for ptr in bytes
  * @new_size: new size of the memory block in bytes
- *
  * Return: Pointer to the reallocated memory block
  *if new_size is zero and ptr is not NULL, returns NULL
  *if ptr is NULL, equivalent to malloc(new_size)
