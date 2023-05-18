@@ -8,9 +8,6 @@
  * @old_size: size of the allocated space for ptr in bytes
  * @new_size: new size of the memory block in bytes
  * Return: Pointer to the reallocated memory block
- *if new_size is zero and ptr is not NULL, returns NULL
- *if ptr is NULL, equivalent to malloc(new_size)
- *if new_size is equal to old_size, returns ptr
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
@@ -31,6 +28,7 @@ if (new_size == old_size)
 return (ptr);
 }
 np = malloc(new_size)
+
 if (np != NULL)
 {
 min_size = (old_size < new_size) ? old_size : new_size;
