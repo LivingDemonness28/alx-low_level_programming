@@ -18,16 +18,19 @@ int multiply(int num1, int num2);
  */
 int main(int argc, char *argv[])
 {
-	if (argc != 3)
+char *num1_str, *num2_str;
+int i,num1, num2, result;
+
+if (argc != 3)
 {
 printf("Error\n");
 return (98);
 }
 
-char *num1_str = argv[1];
-char *num2_str = argv[2];
+num1_str = argv[1];
+num2_str = argv[2];
 
-for (int i = 0; num1_str[i] != '\0'; i++)
+for (i = 0; num1_str[i] != '\0'; i++)
 {
 if (!isdigit(num1_str[i]))
 {
@@ -36,7 +39,7 @@ return (98);
 }
 }
 
-for (int i = 0; num2_str[i] != '\0'; i++)
+for (i = 0; num2_str[i] != '\0'; i++)
 {
 if (!isdigit(num2_str[i]))
 {
@@ -45,9 +48,9 @@ return (98);
 }
 }
 
-int num1 = atoi(num1_str);
-int num2 = atoi(num2_str);
-int result = multiply(num1, num2);
+num1 = atoi(num1_str);
+num2 = atoi(num2_str);
+result = multiply(num1, num2);
 printf("%d\n", result);
 return (0);
 }
