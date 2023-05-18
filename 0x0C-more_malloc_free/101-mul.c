@@ -1,67 +1,89 @@
-#include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
-#include <ctype.h>
+#include <stdio.h>
+#include <string.h>
+
+#define ERR_MSG "Error"
 
 /**
- * multiply - Multiplies two numbers
- * @num1: First number
- * @num2: Second number
- * Return: Result of the multiplication
+ * is_digit - checks if a string contains a non-digit char
+ * @s: string to be evaluated
+ * Return: 0 if a non-digit is found, 1 otherwise	
  */
-int multiply(int num1, int num2);
+int is_digit(char *s);
+void errors(void);
 
-/**
- * main - Entry point of the program
- * @argc: Number of command-line arguments
- * @argv: Array of command-line argument strings
- * Return: 0 on success, 98 on error
- */
 int main(int argc, char *argv[])
 {
-char *num1_str, *num2_str;
-int i,num1, num2, result;
+char *s1, *s2;
+int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
 
-if (argc != 3)
+s1 = argv[1];
+s2 = argv[2];
+
+if (argc != 3 || !is_digit(s1) || !is_digit(s2))
+errors();
+
+len1 = strlen(s1);
+len2 = strlen(s2);
+len = len1 + len2 + 1;
+
+result = malloc(sizeof(int) * len);
+if (!result)
+return (1);
+
+for (i = 0; i <= len1 + len2; i++)
+result[i] = 0;
+
+for (len1 = len1 - 1; len1 >= 0; len1--)
 {
-printf("Error\n");
-return (98);
+digit1 = s1[len1] - '0';
+carry = 0;
+
+for (len2 = strlen(s2) - 1; len2 >= 0; len2--)
+{
+digit2 = s2[len2] - '0';
+carry += result[len1 + len2 + 1] + (digit1 * digit2);
+result[len1 + len2 + 1] = carry % 10;
+carry /= 10;
 }
 
-num1_str = argv[1];
-num2_str = argv[2];
-
-for (i = 0; num1_str[i] != '\0'; i++)
-{
-if (!isdigit(num1_str[i]))
-{
-printf("Error\n");
-return (98);
-}
+if (carry > 0)
+result[len1 + len2 + 1] += carry;
 }
 
-for (i = 0; num2_str[i] != '\0'; i++)
+for (i = 0; i < len - 1; i++)
 {
-if (!isdigit(num2_str[i]))
-{
-printf("Error\n");
-return (98);
-}
+if (result[i])
+_putchar(result[i] + '0');
+if (a)
+_putchar(result[i] + '0');
 }
 
-num1 = atoi(num1_str);
-num2 = atoi(num2_str);
-result = multiply(num1, num2);
-printf("%d\n", result);
+if (!a)
+_putchar('0');
+_putchar('\n');
+
+free(result);
 return (0);
 }
 
-/**
- * multiply - Multiplies two numbers
- * @num1: First number
- * @num2: Second number
- * Return: Result of the multiplication
- */
-int multiply(int num1, int num2)
+int is_digit(char *s)
 {
-return (num1 * num2);
+int i = 0;
+
+while (s[i])
+{
+if (s[i] < '0' || s[i] > '9')
+return (0);
+i++;
+}
+
+return (1);
+}
+
+void errors(void)
+{
+printf("Error\n");
+exit(98);
 }
