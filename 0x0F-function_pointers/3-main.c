@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
+
 /**
  * main - Prints the result of simple operations.
  * @argc: The number of arguments supplied to the program.
@@ -29,7 +30,8 @@ printf("Error\n");
 exit(99);
 }
 
-if ((*op == '/' && n2 == 0) || (*op == '%' && n2 == 0))
+if ((*op == '/' && n2 == 0) ||
+(*op == '%' && n2 == 0))
 {
 printf("Error\n");
 exit(100);
