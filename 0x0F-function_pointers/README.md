@@ -55,5 +55,32 @@
                 <li>If size <= 0, return -1</li>
             </ul>
         </td>
+        <td><h2>3. A goal is not always meant to be reached, it often serves simply as something to aim at</h2></td>
+        <td>
+            <p>Write a program that performs simple operations.</p>
+            <ul>
+                <li>You are allowed to use the standard library</li>
+                <li>Usage: calc num1 operator num2</li>
+                <li>You can assume num1 and num2 are integers, so use the atoi function to convert them from the string input to int</li>
+                <li>operator is one of the following</li>
+                <ul>
+                    <li>+: addition</li>
+                    <li>-: subtraction</li>
+                    <li>*: multiplication</li>
+                    <li>/: division</li>
+                    <li>%: modulo</li>
+                </ul>
+                <li>The program prints the result of the operation, followed by a new line</li>
+                <li>You can assume that the result of all operations can be stored in an int</li>
+                <li>if the number of arguments is wrong, print Error, followed by a new line, and exit with the status 98</li>
+                <li>if the operator is none of the above, print Error, followed by a new line, and exit with the status 99</li>
+                <li>if the user tries to divide (/ or %) by 0, print Error, followed by a new line, and exit with the status 100</li>
+            </ul>
+            <p>This task requires that you create four different files.</p>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0F-function_pointers/3-calc.h" target="_blank">3-calc.h</a></h2></td>
+        <td>This file should contain all the function prototypes and data structures used by the program. You can use this structure:</td>
     </tr>
 </table>
