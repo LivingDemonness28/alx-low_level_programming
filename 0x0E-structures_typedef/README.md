@@ -30,7 +30,7 @@
         </td>
     </tr>
     <tr>
-        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0E-structures_typedef/1-init_dog.c" target="_blank">1-init_dog.c</a></h2></td>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0E-structures_typedef/2-print_dog.c" target="_blank">2-print_dog.c</a></h2></td>
         <td>
             <p>Write a function that prints a struct dog</p>
             <ul>
@@ -44,17 +44,6 @@
     <tr>
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0E-structures_typedef/dog.h" target="_blank">dog.h</a></h2></td>
         <td>Define a new type dog_t as a new name for the type struct dog.</td>
-    </tr>
-    <tr>
-        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0E-structures_typedef/4-new_dog.c" target="_blank">4-new_dog.c</a></h2></td>
-        <td>
-            <p>Write a function that creates a new dog.</p>
-            <ul>
-                <li>Prototype: dog_t *new_dog(char *name, float age, char *owner);</li>
-                <li>You have to store a copy of name and owner</li>
-                <li>Return NULL if the function fails</li>
-            </ul>
-        </td>
     </tr>
     <tr>
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0E-structures_typedef/4-new_dog.c" target="_blank">4-new_dog.c</a></h2></td>
