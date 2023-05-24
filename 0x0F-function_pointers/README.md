@@ -55,6 +55,8 @@
                 <li>If size <= 0, return -1</li>
             </ul>
         </td>
+    </tr>
+    <tr>
         <td><h2>3. A goal is not always meant to be reached, it often serves simply as something to aim at</h2></td>
         <td>
             <p>Write a program that performs simple operations.</p>
