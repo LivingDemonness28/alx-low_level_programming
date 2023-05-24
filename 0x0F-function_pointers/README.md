@@ -25,4 +25,21 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0F-function_pointers/1-main.c" target="_blank">1-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0F-function_pointers/1-array_iterator.c" target="_blank">1-array_iterator.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that searches for an integer.</p>
+            <ul>
+                <li>Prototype: int int_index(int *array, int size, int (*cmp)(int));</li>
+                <li>where size is the number of elements in the array array</li>
+                <li>cmp is a pointer to the function to be used to compare values</li>
+                <li>int_index returns the index of the first element for which the cmp function does not return 0</li>
+                <li>If no element matches, return -1</li>
+                <li>If size <= 0, return -1</li>
+            </ul>
+        </td>
+    </tr>
 </table>
