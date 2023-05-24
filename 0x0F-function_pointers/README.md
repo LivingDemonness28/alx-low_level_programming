@@ -85,4 +85,17 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0F-function_pointers/3-calc.h" target="_blank">3-calc.h</a></h2></td>
         <td>This file should contain all the function prototypes and data structures used by the program. You can use this structure:</td>
     </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c" target="_blank">3-op_functions.c</a></h2></td>
+        <td>
+            <p>This file should contain the 5 following functions (not more):</p>
+            <ul>
+                <li>op_add: returns the sum of a and b. Prototype: int op_add(int a, int b);</li>
+                <li>op_sub: returns the difference of a and b. Prototype: int op_sub(int a, int b);</li>
+                <li>op_mul: returns the product of a and b. Prototype: int op_mul(int a, int b);</li>
+                <li>op_div: returns the result of the division of a by b. Prototype: int op_div(int a, int b);</li>
+                <li>op_mod: returns the remainder of the division of a by b. Prototype: int op_mod(int a, int b);</li>
+            </ul>
+        </td>
+    </tr>
 </table>
