@@ -31,6 +31,20 @@
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0F-function_pointers/1-array_iterator.c" target="_blank">1-array_iterator.c</a></h2>
         </td>
         <td>
+            <p>Write a function that executes a function given as a parameter on each element of an array.</p>
+            <ul>
+                <li>Prototype: void array_iterator(int *array, size_t size, void (*action)(int));</li>
+                <li>where size is the size of the array</li>
+                <li>and action is a pointer to the function you need to use</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0F-function_pointers/2-main.c" target="_blank">2-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x0F-function_pointers/2-int_index.c" target="_blank">2-int_index.c</a></h2>
+        </td>
+        <td>
             <p>Write a function that searches for an integer.</p>
             <ul>
                 <li>Prototype: int int_index(int *array, int size, int (*cmp)(int));</li>
