@@ -14,7 +14,7 @@ va_list args;
 unsigned int i, num, sum = 0;
 
 if (n == 0)
-return 0;
+return (0);
 
 va_start(args, n);
 
