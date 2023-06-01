@@ -13,13 +13,9 @@ size_t count = 0;
 while (h)
 {
 if (h->str != NULL)
-{
 printf("[%u] %s\n", h->len, h->str);
-}
 else
-{
 printf("[0] (nil)\n");
-}
 h = h->next;
 count++;
 }
