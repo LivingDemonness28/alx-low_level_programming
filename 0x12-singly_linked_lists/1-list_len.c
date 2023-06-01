@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stddef.h>
+#include <stdlib.h>
 
 /**
  * list_len - Calculate the length of the linked list
