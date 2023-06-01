@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdlib.h>
 
 /**
  * list_len - Calculate the length of the linked list
@@ -13,8 +12,8 @@ count = 0;
 
 while(h != NULL)
 {
-count++;
 h = h->next;
+count++;
 }
 
 return (count);
