@@ -6,12 +6,15 @@
  * Return: Number of elements in the list
 */
 size_t list_len(const Node *h) {
-if (h == NULL)
+size_t count;
+
+count = 0;
+
+while(h != NULL)
 {
-return (0);
+count++;
+h = h->next;
 }
-else
-{
-return (1 + list_len(h->next));
-}
+
+return (count);
 }
