@@ -36,7 +36,7 @@ if (*head == NULL)
 else
 {
 while ((*head)->next)
-head = (*head)->next;
+head = &(*head)->next;
 (*head)->next = nn;
 }
 
