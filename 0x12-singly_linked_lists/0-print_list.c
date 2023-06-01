@@ -9,7 +9,7 @@
  */
 size_t print_list(const list_t *h)
 {
-size_t count = 0, len;
+size_t count = 0, len, i;
 
 _putchar('[');
 while (h != NULL)
@@ -17,7 +17,7 @@ while (h != NULL)
 if (h->str != NULL)
 {
 len = strlen(h->str);
-for (size_t i = 0; i < len; i++)
+for (i = 0; i < len; i++)
 {
 _putchar(h->str[i]);
 }
