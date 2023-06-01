@@ -8,13 +8,13 @@
 */
 size_t list_len(const list_t *h)
 {
-size_t count;
+size_t counts;
 
-count = 0;
-while(h)
+counts = 0;
+while (h !=)
 {
-count++;
+counts++;
 h = h->next;
 }
-return (count);
+return (counts);
 }
