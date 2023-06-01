@@ -9,26 +9,18 @@
  */
 size_t print_list(const list_t *h)
 {
-size_t count = 0, len, i;
+size_t count = 0;
 
-_putchar('[');
+printf("[");
 while (h != NULL)
 {
 if (h->str != NULL)
 {
-len = strlen(h->str);
-for (i = 0; i < len; i++)
-{
-_putchar(h->str[i]);
-}
+printf("%s", h->str);
 }
 else
 {
-_putchar('(');
-_putchar('n');
-_putchar('i');
-_putchar('l');
-_putchar(')');
+printf("(nil)");
 }
 
 count++;
@@ -36,12 +28,10 @@ h = h->next;
 
 if (h != NULL)
 {
-_putchar(',');
-_putchar(' ');
+printf(", ");
 }
 }
-_putchar(']');
-_putchar('\n');
+printf("]\n");
 
 return (count);
 }
