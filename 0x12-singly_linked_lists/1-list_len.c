@@ -13,8 +13,8 @@ size_t count;
 count = 0;
 while(h != NULL)
 {
-h = h->next;
 count++;
+h = h->next;
 }
 return (count);
 }
