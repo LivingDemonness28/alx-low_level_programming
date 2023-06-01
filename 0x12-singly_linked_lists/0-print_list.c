@@ -12,27 +12,18 @@ size_t print_list(const list_t *h)
 {
 size_t count = 0;
 
-printf("[");
-while (h != NULL)
+while (h)
 {
 if (h->str != NULL)
 {
-printf("%s", h->str);
+printf("[%u] %s\n", h->len, h->str);
 }
 else
 {
-printf("(nil)");
+printf("[0] (nil)\n");
 }
-
-count++;
 h = h->next;
-
-if (h != NULL)
-{
-printf(", ");
+count++;
 }
-}
-printf("]\n");
-
 return (count);
 }
