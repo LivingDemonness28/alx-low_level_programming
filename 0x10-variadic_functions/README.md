@@ -16,8 +16,6 @@
     <tr>
         <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x10-variadic_functions/0-main.c" target="_blank">0-main.c</a></h2>
-        </td>
-        <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x10-variadic_functions/0-sum_them_all.c" target="_blank">0-sum_them_all.c</a></h2>
         </td>
         <td>
@@ -35,8 +33,6 @@
     <tr>
         <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x10-variadic_functions/1-main.c" target="_blank">1-main.c</a></h2>
-        </td>
-        <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x10-variadic_functions/1-print_numbers.c" target="_blank">1-print_numbers.c</a></h2>
         </td>
         <td>
@@ -58,8 +54,6 @@
     <tr>
         <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x10-variadic_functions/2-main.c" target="_blank">2-main.c</a></h2>
-        </td>
-        <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x10-variadic_functions/2-print_strings.c" target="_blank">2-print_strings.c</a></h2>
         </td>
         <td>
@@ -82,8 +76,6 @@
     <tr>
         <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x10-variadic_functions/3-main.c" target="_blank">3-main.c</a></h2>
-        </td>
-        <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x10-variadic_functions/3-print_all.c" target="_blank">3-print_all.c</a></h2>
         </td>
         <td>
