@@ -26,6 +26,10 @@
         </td>
     </tr>
     <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/0-98" target="_blank">0-98</a></h2></td>
+        <td>0-98 is the executable file for 0-reset_to_98.c and 0-main.c</td>
+    </tr>
+    <tr>
         <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/1-main.c" target="_blank">1-main.c</a></h2>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/1-swap.c" target="_blank">1-swap.c</a></h2>
@@ -36,6 +40,10 @@
                 <li>Prototype: void swap_int(int *a, int *b);</li>
             </ul>
         </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/0-98" target="_blank">1-swap</a></h2></td>
+        <td>0-98 is the executable file for 0-reset_to_98.c and 0-main.c</td>
     </tr>
     <tr>
         <td>
