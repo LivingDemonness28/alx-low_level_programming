@@ -11,12 +11,12 @@ void free_listint2(listint_t **head)
 listint_t *now;
 listint_t *rep = *head;
 
-if (!head)
+if (head = NULL)
 {
 return;
 }
 
-while (rep)
+while (rep != NULL)
 {
 now = rep;
 rep = rep->next;
