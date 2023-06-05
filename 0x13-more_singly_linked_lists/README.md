@@ -47,4 +47,17 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/b" target="_blank">b</a></h2></td>
         <td>The executable file for Task 1</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/2-main.c" target="_blank">2-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/2-add_nodeint.c" target="_blank">2-add_nodeint.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that adds a new node at the beginning of a listint_t list.</p>
+            <ul>
+                <li>Prototype: listint_t *add_nodeint(listint_t **head, const int n);</li>
+                <li>Return: the address of the new element, or NULL if it failed</li>
+            </ul>
+        </td>
+    </tr>
 </table>
