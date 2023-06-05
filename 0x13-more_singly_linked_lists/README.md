@@ -127,4 +127,8 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/g" target="_blank">g</a></h2></td>
+        <td>The executable file for Task 6</td>
+    </tr>
 </table>
