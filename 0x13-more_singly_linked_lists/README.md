@@ -81,4 +81,16 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/d" target="_blank">d</a></h2></td>
         <td>The executable file for Task 3</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/4-main.c" target="_blank">4-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/4-free_listint.c" target="_blank">4-free_listint.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that frees a listint_t list.</p>
+            <ul>
+                <li>Prototype: void free_listint(listint_t *head);</li>
+            </ul>
+        </td>
+    </tr>
 </table>
