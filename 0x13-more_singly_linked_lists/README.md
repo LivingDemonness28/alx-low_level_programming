@@ -114,4 +114,17 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/f" target="_blank">f</a></h2></td>
         <td>The executable file for Task 5</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/6-main.c" target="_blank">6-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/6-pop_listint.c" target="_blank">6-pop_listint.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).</p>
+            <ul>
+                <li>Prototype: int pop_listint(listint_t **head);</li>
+                <li>if the linked list is empty return 0</li>
+            </ul>
+        </td>
+    </tr>
 </table>
