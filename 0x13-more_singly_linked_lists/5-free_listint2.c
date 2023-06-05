@@ -16,11 +16,11 @@ if (head = NULL)
 return;
 }
 
-while (rep != NULL)
+while (rep)
 {
-now = rep;
-rep = rep->next;
-free(now);
+now = rep->next;
+free(rep);
+rep = now;
 }
 *head = NULL;
 }
