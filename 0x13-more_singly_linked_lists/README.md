@@ -149,4 +149,17 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/h" target="_blank">h</a></h2></td>
         <td>The executable file for Task 7</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/8-main.c" target="_blank">8-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/8-sum_listint.c" target="_blank">8-sum_listint.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that returns the sum of all the data (n) of a listint_t linked list.</p>
+            <ul>
+                <li>Prototype: int sum_listint(listint_t *head);</li>
+                <li>if the list is empty, return 0</li>
+            </ul>
+        </td>
+    </tr>
 </table>
