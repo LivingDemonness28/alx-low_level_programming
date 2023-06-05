@@ -64,4 +64,17 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/c" target="_blank">c</a></h2></td>
         <td>The executable file for Task 2</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/3-main.c" target="_blank">3-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/3-add_nodeint_end.c" target="_blank">3-add_nodeint_end.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that adds a new node at the end of a listint_t list.</p>
+            <ul>
+                <li>Prototype: listint_t *add_nodeint_end(listint_t **head, const int n);</li>
+                <li>Return: the address of the new element, or NULL if it failed</li>
+            </ul>
+        </td>
+    </tr>
 </table>
