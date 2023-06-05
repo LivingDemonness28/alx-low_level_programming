@@ -22,17 +22,17 @@ return (NULL);
 nn->n = n;
 nn->next = NULL;
 
-if (*head == NULL)
+if (!*head)
 {
 *head = nn;
+return (nn);
 }
-else
-{
+
 while ((*head)->next != NULL)
 {
 *head = (*head)->next;
 }
 (*head)->next = nn;
-}
+
 return (nn);
 }
