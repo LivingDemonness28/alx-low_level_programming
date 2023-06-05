@@ -22,7 +22,7 @@ return (NULL);
 nn->n = n;
 nn->next = NULL;
 
-if (!*head)
+if (*head == NULL)
 {
 *head = nn;
 return (nn);
