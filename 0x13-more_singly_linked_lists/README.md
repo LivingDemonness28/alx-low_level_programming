@@ -13,4 +13,18 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/_putchar.c" target="_blank">_putchar.c</a></h2></td>
         <td>The putchar function file.</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/0-main.c" target="_blank">0-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/0-print_listint.c" target="_blank">0-print_listint.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that prints all the elements of a listint_t list.</p>
+            <ul>
+                <li>Prototype: size_t print_listint(const listint_t *h);</li>
+                <li>Return: the number of nodes</li>
+                <li>You are allowed to use printf</li>
+            </ul>
+        </td>
+    </tr>
 </table>
