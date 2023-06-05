@@ -31,4 +31,16 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/a" target="_blank">a</a></h2></td>
         <td>The executable file for Task 0</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/1-main.c" target="_blank">1-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/1-listint_len.c" target="_blank">1-listint_len.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that returns the number of elements in a linked listint_t list.</p>
+            <ul>
+                <li>Prototype: size_t listint_len(const listint_t *h);</li>
+            </ul>
+        </td>
+    </tr>
 </table>
