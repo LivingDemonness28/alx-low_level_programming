@@ -131,4 +131,18 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/g" target="_blank">g</a></h2></td>
         <td>The executable file for Task 6</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/7-main.c" target="_blank">7-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/7-get_nodeint.c" target="_blank">7-get_nodeint.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that returns the nth node of a listint_t linked list.</p>
+            <ul>
+                <li>Prototype: listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);</li>
+                <li>where index is the index of the node, starting at 0</li>
+                <li>if the node does not exist, return NULL</li>
+            </ul>
+        </td>
+    </tr>
 </table>
