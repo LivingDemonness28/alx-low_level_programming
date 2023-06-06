@@ -16,7 +16,7 @@ size_t i = 0;
 
 if (h == NULL || *h == NULL)
 {
-return (0)
+return (0);
 }
 
 now = *h;
