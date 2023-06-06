@@ -11,7 +11,7 @@
  */
 size_t free_listint_safe(listint_t **h)
 {
-listint_t *now, *rep;
+listint_t *now, *next;
 size_t i = 0;
 
 if (h == NULL || *h == NULL)
@@ -20,18 +20,20 @@ return (0);
 }
 
 now = *h;
+
 while (now != NULL)
 {
+next = now->next;
+free(now);
 i++;
-if (now->next >= now)
+if (next >= now)
 {
-*h = NULL;
 break;
 }
-rep = now;
-now = now->next;
-free(rep);
+now = next;
 }
+
 *h = NULL;
+
 return (i);
 }
