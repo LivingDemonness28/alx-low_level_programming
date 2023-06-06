@@ -5,45 +5,30 @@
  * find_listint_loop - finds the loop
  * in a linked list
  * @head: linked list to search for
- * Return: address of the node where the
- * loop starts, or NULL
+ * Return: address of the node where
+ * the loop starts, or NULL
  */
 
 listint_t *find_listint_loop(listint_t *head)
 {
-const listint_t *slow, *fast;
-size_t apex = 1;
+listint_t *unrushed = head;
+listint_t *rushed = head;
 
-if (head == NULL || head->next == NULL)
+while (rushed != NULL && rushed->next != NULL)
 {
-return (0);
-}
+unrushed = unrushed->next;
+rushed = rushed->next->next;
 
-slow = head->next;
-fast = (head->next)->next;
-
-while (fast != NULL)
+if (unrushed == rushed)
 {
-if (slow == fast)
+unrushed = rushed;
+while (unrushed != rushed)
 {
-slow = head;
-while (slow != fast)
-{
-apex++;
-slow = slow->next;
-fast = fast->next;
+unrushed = unrushed->next;
+rushed = rushed->next;
 }
-
-slow = slow->next;
-while (slow != fast)
-{
-apex++;
-slow = slow->next;
+return (unrushed);
 }
-return (apex);
 }
-slow = slow->next;
-fast = (fast->next)->next;
-}
-return (0);
+return (NULL);
 }
