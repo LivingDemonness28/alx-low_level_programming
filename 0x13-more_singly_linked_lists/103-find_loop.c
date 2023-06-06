@@ -14,12 +14,15 @@ listint_t *find_listint_loop(listint_t *head)
 listint_t *unrushed = head;
 listint_t *rushed = head;
 
-while (rushed != NULL && rushed->next != NULL)
+if (head == NULL)
+return (NULL);
+
+while (rushed != NULL && rushed != NULL && rushed->next != NULL)
 {
 unrushed = unrushed->next;
 rushed = rushed->next->next;
 
-if (unrushed == rushed)
+if (rushed == unrushed)
 {
 unrushed = rushed;
 while (unrushed != rushed)
