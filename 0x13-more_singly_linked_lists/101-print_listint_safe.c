@@ -16,7 +16,7 @@ size_t count = 0;
 slow = head;
 fast = head;
 
-while (slow && fast && fast->next)
+while (slow != NULL && fast != NULL && fast->next != NULL)
 {
 printf("[%p] %d\n", (void *)slow, slow->n);
 slow = slow->next;
@@ -30,7 +30,7 @@ exit(98);
 count++;
 }
 
-if (slow)
+if (slow != NULL)
 {
 printf("[%p] %d\n", (void *)slow, slow->n);
 count++;
