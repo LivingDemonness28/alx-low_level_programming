@@ -19,6 +19,9 @@ unsigned int i;
 if (head == NULL || nn == NULL)
 return (NULL);
 
+nn->n = n;
+nn->next = NULL;
+
 if (idx == 0)
 {
 nn->next = *head;
