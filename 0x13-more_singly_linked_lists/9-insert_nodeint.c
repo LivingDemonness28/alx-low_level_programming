@@ -26,7 +26,7 @@ nn->next = *head;
 return (nn);
 }
 
-for (i = 0; temp && i < idx; i++)
+for (i = 0; now && i < idx; i++)
 {
 if (i == idx - 1)
 {
