@@ -223,4 +223,20 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/l" target="_blank">l</a></h2></td>
         <td>The executable file for Task 100</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/101-main.c" target="_blank">101-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/101-print_listint_safe.c" target="_blank">101-print_listint_safe.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that prints a listint_t linked list.</p>
+            <ul>
+                <li>Prototype: size_t print_listint_safe(const listint_t *head);</li>
+                <li>Returns: the number of nodes in the list</li>
+                <li>This function can print lists with a loop</li>
+                <li>You should go through the list only once</li>
+                <li>If the function fails, exit the program with status 98</li>
+            </ul>
+        </td>
+    </tr>
 </table>
