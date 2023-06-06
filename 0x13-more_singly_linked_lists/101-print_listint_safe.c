@@ -20,7 +20,7 @@ while (slow && fast && fast->next)
 {
 printf("[%p] %d\n", (void *)slow, slow->n);
 slow = slow->next;
-fast->next->next;
+fast = fast->next->next;
 
 if (slow == fast)
 {
