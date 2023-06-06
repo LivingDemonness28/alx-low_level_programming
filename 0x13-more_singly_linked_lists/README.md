@@ -221,7 +221,7 @@
     </tr>
     <tr>
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/l" target="_blank">l</a></h2></td>
-        <td>The executable file for Task 100</td>
+        <td>The executable file for Task 11</td>
     </tr>
     <tr>
         <td>
@@ -238,5 +238,9 @@
                 <li>If the function fails, exit the program with status 98</li>
             </ul>
         </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/m" target="_blank">m</a></h2></td>
+        <td>The executable file for Task 12</td>
     </tr>
 </table>
