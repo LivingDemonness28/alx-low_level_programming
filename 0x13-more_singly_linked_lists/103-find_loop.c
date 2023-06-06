@@ -15,22 +15,23 @@ listint_t *unrushed = head;
 listint_t *rushed = head;
 
 if (head == NULL)
+{
 return (NULL);
+}
 
 while (unrushed != NULL && rushed != NULL && rushed->next != NULL)
 {
 rushed = rushed->next->next;
 unrushed = unrushed->next;
-
 if (rushed == unrushed)
 {
-unrushed = rushed;
+unrushed = head;
 while (unrushed != rushed)
 {
 unrushed = unrushed->next;
 rushed = rushed->next;
 }
-return (unrushed);
+return (rushed);
 }
 }
 return (NULL);
