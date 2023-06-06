@@ -185,4 +185,18 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/j" target="_blank">j</a></h2></td>
         <td>The executable file for Task 9</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/10-main.c" target="_blank">10-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/10-delete_nodeint.c" target="_blank">10-delete_nodeint.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that deletes the node at index index of a listint_t linked list.</p>
+            <ul>
+                <li>Prototype: int delete_nodeint_at_index(listint_t **head, unsigned int index);</li>
+                <li>where index is the index of the node that should be deleted. Index starts at 0</li>
+                <li>Returns: 1 if it succeeded, -1 if it failed</li>
+            </ul>
+        </td>
+    </tr>
 </table>
