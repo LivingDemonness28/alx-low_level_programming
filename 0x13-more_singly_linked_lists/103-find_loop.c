@@ -17,7 +17,7 @@ listint_t *rushed = head;
 if (head == NULL)
 return (NULL);
 
-while (rushed != NULL && rushed != NULL && rushed->next != NULL)
+while (unrushed != NULL && rushed != NULL && rushed->next != NULL)
 {
 unrushed = unrushed->next;
 rushed = rushed->next->next;
