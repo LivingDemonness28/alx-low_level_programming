@@ -19,8 +19,8 @@ return (NULL);
 
 while (unrushed != NULL && rushed != NULL && rushed->next != NULL)
 {
-unrushed = unrushed->next;
 rushed = rushed->next->next;
+unrushed = unrushed->next;
 
 if (rushed == unrushed)
 {
