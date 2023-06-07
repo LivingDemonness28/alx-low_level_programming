@@ -243,4 +243,20 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/m" target="_blank">m</a></h2></td>
         <td>The executable file for Task 12</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/102-main.c" target="_blank">102-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/102-free_listint_safe.c" target="_blank">102-free_listint_safe.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that frees a listint_t list.</p>
+            <ul>
+                <li>Prototype: size_t free_listint_safe(listint_t **h);</li>
+                <li>This function can free lists with a loop</li>
+                <li>You should go though the list only once</li>
+                <li>Returns: the size of the list that was free’d</li>
+                <li>The function sets the head to NULL</li>
+            </ul>
+        </td>
+    </tr>
 </table>
