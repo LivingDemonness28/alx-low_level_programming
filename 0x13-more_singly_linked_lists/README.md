@@ -263,4 +263,19 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/n" target="_blank">n</a></h2></td>
         <td>The executable file for Task 13</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/103-main.c" target="_blank">103-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/103-find_loop.c" target="_blank">103-find_loop.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that finds the loop in a linked list.</p>
+            <ul>
+                <li>Prototype: listint_t *find_listint_loop(listint_t *head);</li>
+                <li>Returns: The address of the node where the loop starts, or NULL if there is no loop</li>
+                <li>You are not allowed to use malloc, free or arrays</li>
+                <li>You can only declare a maximum of two variables in your function</li>
+            </ul>
+        </td>
+    </tr>
 </table>
