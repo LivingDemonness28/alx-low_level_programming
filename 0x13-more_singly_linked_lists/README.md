@@ -278,4 +278,8 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/o" target="_blank">o</a></h2></td>
+        <td>The executable file for Task 14</td>
+    </tr>
 </table>
