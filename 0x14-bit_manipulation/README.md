@@ -117,8 +117,12 @@
             <p>Write a function that returns the number of bits you would need to flip to get from one number to another.</p>
             <ul>
                 <li>Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);</li>
-                <li>ou are not allowed to use the % or / operators</li>
+                <li>You are not allowed to use the % or / operators</li>
             </ul>
         </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/f" target="_blank">f</a></h2></td>
+        <td>Executable file for Task 5</td>
     </tr>
 </table>
