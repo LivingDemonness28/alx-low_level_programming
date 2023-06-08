@@ -22,7 +22,7 @@ for (i = sizeof(n) * 8 - 1; i >= 0; i--)
 bit = 1UL << i;
 if (n & bit)
 {
-_putchar('1')
+_putchar('1');
 one = 1;
 }
 else if (one)
