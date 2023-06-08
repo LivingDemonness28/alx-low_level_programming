@@ -26,8 +26,8 @@ _putchar('1');
 one = 1;
 }
 else if (one)
-(
+{
 _putchar('0');
-)
+}
 }
 }
