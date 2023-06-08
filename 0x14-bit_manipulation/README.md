@@ -35,4 +35,19 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/a" target="_blank">a</a></h2></td>
         <td>Executable file for Task 0</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-main.c" target="_blank">1-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-print_binary.c.c" target="_blank">1-print_binary.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that prints the binary representation of a number.</p>
+            <ul>
+                <li>Prototype: void print_binary(unsigned long int n);</li>
+                <li>You are not allowed to use arrays</li>
+                <li>RYou are not allowed to use malloc</li>
+                <li>You are not allowed to use the % or / operators</li>
+            </ul>
+        </td>
+    </tr>
 </table>
