@@ -142,4 +142,14 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/h" target="_blank">h</a></h2></td>
         <td>Executable file for Task 6</td>
     </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/100-get_endianness.c" target="_blank">100-get_endianness.c</a></h2></td>
+        <td>
+            <p>Find the password for <a href="https://github.com/alx-tools/0x13.c" target="_blank">this program</a>.</p>
+            <ul>
+                <li>Save the password in the file 101-password</li>
+                <li>Your file should contain the exact password, no new line, no extra space</li>
+            </ul>
+        </td>
+    </tr>
 </table>
