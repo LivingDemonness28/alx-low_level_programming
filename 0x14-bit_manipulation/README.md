@@ -138,4 +138,8 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/h" target="_blank">h</a></h2></td>
+        <td>Executable file for Task 6</td>
+    </tr>
 </table>
