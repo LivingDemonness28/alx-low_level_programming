@@ -125,4 +125,17 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/f" target="_blank">f</a></h2></td>
         <td>Executable file for Task 5</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/100-main.c" target="_blank">100-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/100-get_endianness.c" target="_blank">100-get_endianness.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that checks the endianness.</p>
+            <ul>
+                <li>Prototype: int get_endianness(void);</li>
+                <li>Returns: 0 if big endian, 1 if little endian</li>
+            </ul>
+        </td>
+    </tr>
 </table>
