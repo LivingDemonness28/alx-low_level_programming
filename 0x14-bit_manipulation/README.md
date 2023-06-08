@@ -38,14 +38,14 @@
     <tr>
         <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-main.c" target="_blank">1-main.c</a></h2>
-            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-print_binary.c.c" target="_blank">1-print_binary.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-print_binary.c" target="_blank">1-print_binary.c</a></h2>
         </td>
         <td>
             <p>Write a function that prints the binary representation of a number.</p>
             <ul>
                 <li>Prototype: void print_binary(unsigned long int n);</li>
                 <li>You are not allowed to use arrays</li>
-                <li>RYou are not allowed to use malloc</li>
+                <li>You are not allowed to use malloc</li>
                 <li>You are not allowed to use the % or / operators</li>
             </ul>
         </td>
@@ -53,5 +53,19 @@
     <tr>
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/b" target="_blank">b</a></h2></td>
         <td>Executable file for Task 1</td>
+    </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/2-main.c" target="_blank">2-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/2-get_bit.c" target="_blank">2-get_bit.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that returns the value of a bit at a given index.</p>
+            <ul>
+                <li>Prototype: int get_bit(unsigned long int n, unsigned int index);</li>
+                <li>where index is the index, starting from 0 of the bit you want to get</li>
+                <li>Returns: the value of the bit at index index or -1 if an error occured</li>
+            </ul>
+        </td>
     </tr>
 </table>
