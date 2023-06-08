@@ -13,4 +13,22 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/_putchar.c" target="_blank">_putchar.c</a></h2></td>
         <td>The putchar function file.</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-main.c" target="_blank">0-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c" target="_blank">0-binary_to_uint.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that converts a binary number to an unsigned int.</p>
+            <ul>
+                <li>Prototype: unsigned int binary_to_uint(const char *b);</li>
+                <li>where b is pointing to a string of 0 and 1 chars</li>
+                <li>Return: the converted number, or 0 if</li>
+                <ul>
+                    <li>there is one or more chars in the string b that is not 0 or 1</li>
+                    <li>b is NULL</li>
+                </ul>
+            </ul>
+        </td>
+    </tr>
 </table>
