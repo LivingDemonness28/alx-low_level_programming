@@ -13,12 +13,5 @@ unsigned char* byte;
 num = 1;
 byte = (unsigned char*) &num;
 
-if (*byte)
-{
-return (1);
-}
-else
-{
-return (0);
-}
+return (byte);
 }
