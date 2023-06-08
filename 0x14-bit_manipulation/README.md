@@ -96,7 +96,7 @@
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/4-clear_bit.c" target="_blank">4-clear_bit.c</a></h2>
         </td>
         <td>
-            <p>WWrite a function that sets the value of a bit to 0 at a given index.</p>
+            <p>Write a function that sets the value of a bit to 0 at a given index.</p>
             <ul>
                 <li>Prototype: int clear_bit(unsigned long int *n, unsigned int index);</li>
                 <li>where index is the index, starting from 0 of the bit you want to set</li>
@@ -107,5 +107,18 @@
     <tr>
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/e" target="_blank">e</a></h2></td>
         <td>Executable file for Task 4</td>
+    </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/5-main.c" target="_blank">5-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/5-flip_bits.c" target="_blank">5-flip_bits.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that returns the number of bits you would need to flip to get from one number to another.</p>
+            <ul>
+                <li>Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);</li>
+                <li>ou are not allowed to use the % or / operators</li>
+            </ul>
+        </td>
     </tr>
 </table>
