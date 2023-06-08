@@ -90,4 +90,18 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/d" target="_blank">d</a></h2></td>
         <td>Executable file for Task 3</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/4-main.c" target="_blank">4-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/4-clear_bit.c" target="_blank">4-clear_bit.c</a></h2>
+        </td>
+        <td>
+            <p>WWrite a function that sets the value of a bit to 0 at a given index.</p>
+            <ul>
+                <li>Prototype: int clear_bit(unsigned long int *n, unsigned int index);</li>
+                <li>where index is the index, starting from 0 of the bit you want to set</li>
+                <li>Returns: 1 if it worked, or -1 if an error occurred</li>
+            </ul>
+        </td>
+    </tr>
 </table>
