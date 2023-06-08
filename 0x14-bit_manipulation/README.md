@@ -72,4 +72,18 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/c" target="_blank">c</a></h2></td>
         <td>Executable file for Task 2</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/3-main.c" target="_blank">3-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/3-set_bit.c" target="_blank">3-set_bit.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that sets the value of a bit to 1 at a given index.</p>
+            <ul>
+                <li>Prototype: int set_bit(unsigned long int *n, unsigned int index);</li>
+                <li>where index is the index, starting from 0 of the bit you want to set</li>
+                <li>Returns: 1 if it worked, or -1 if an error occurred</li>
+            </ul>
+        </td>
+    </tr>
 </table>
