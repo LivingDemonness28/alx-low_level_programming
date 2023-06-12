@@ -1,84 +1,79 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdarg.h>
 
 /**
- * buff - Allocates 1024 bytes for a buffer
- * @file: The name of the file
- * Return: A pointer to the buffer
+ * error - Print error message and exit
+ * with specified code
+ * @code: Exit code
+ * @format: Error message format string
+ * Return: The error message specified by the format
+ * string
 */
-char *buffer(char *file)
+void errorExit(int code, const char *format, ...)
 {
-char *buff = malloc(sizeof(char) * 1024);
-
-if (buff == NULL)
-{
-dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file);
-exit(99);
-}
-return (buff);
+va_list args;
+va_start(args, format);
+vfprintf(stderr, format, args);
+va_end(args);
+exit(code);
 }
 
 /**
- * cf - closes file descriptors
- * @fd: file descriptor to be closed
-*/
-void cf(int fd)
-{
-int i = close(fd);
-
-if (c == -1)
-{
-dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
-exit(100);
-}
-}
-
-/**
- * main - Copies contents from one file to another
- * @argc: The number of arguments supplied
- * @argv: An array of pointers to the arguments
+ * main - Copies the content of
+ * one file to another file
+ * @argc: Number of command-line arguments
+ * @argv: Array of command-line arguments
  * Return: 0 (success)
 */
 int main(int argc, char *argv[])
 {
-int bytesW;
-char *buff = buffer(argv[2]);
 int ffrom = open(argv[1], O_RDONLY);
-int bytesR = read(ffrom, buff, 1024);
-int fto = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+int fto = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC,
+S_IRUSR | S_IRGRP | S_IWGRP | S_IROTH);
+char buffer[BUFFER_SIZE];
+ssize_t bytesR = read(ffrom, buffer, BUFFER_SIZE);
+ssize_t bytesW;
 
 if (argc != 3)
 {
-dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
-exit(97);
+errorExit(97, "Usage: cp file_from file_to\n");
 }
 
-do
+if (ffrom == -1)
 {
-if (ffrom == -1 || bytesR == -1)
+errorExit(98, "Error: Can't read from file %s\n", argv[1]);
+}
+
+if (fto == -1)
 {
-dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
-free(buff);
-exit(98);
+errorExit(99, "Error: Can't write to %s\n", argv[2]);
 }
 
-bytesW = write(fto, buff, bytesR);
-if (fto == -1 || bytesW == -1)
+while (bytesR > 0)
 {
-dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
-free(buff);
-exit(99);
+bytesW = write(fto, buffer, bytesR);
+if (bytesW == -1)
+{
+errorExit(99, "Error: Can't write to %s\n", argv[2]);
+}
 }
 
-bytesR = read(ffrom, buff, 1024);
-fto = open(argv[2]. O_WRONLY | O_APPEND);
+if (bytesR == -1)
+{
+errorExit(98, "Error: Can't read from file %s\n", argv[1]);
 }
-while (bytesR > 0);
 
-free(buff);
-cf(ffrom);
-cf(fto);
+if (close(ffrom) == -1)
+{
+errorExit(100, "Error: Can't closefd %d\n", ffrom);
+}
+
+if (close(fto) == -1)
+{
+errorExit(100, "Error: Can't close fd %d\n", fto);
+}
 
 return (0);
 }
