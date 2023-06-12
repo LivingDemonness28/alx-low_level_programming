@@ -21,7 +21,7 @@ if (filename == NULL)
 return (-1);
 }
 
-if (file == NULL)
+if (file == -1)
 {
 return (-1);
 }
