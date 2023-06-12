@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * error_exit - Print error message and exit
+ * error - Print error message and exit
  * with specified code
  * @code: Exit code
  * @format: Error message format string
