@@ -25,7 +25,8 @@ exit(code);
 int main(int argc, char *argv[])
 {
 int ffrom = open(argv[1], O_RDONLY);
-int fto = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IRGRP | S_IWGRP | S_IROTH);
+int fto = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC,
+S_IRUSR | S_IRGRP | S_IWGRP | S_IROTH);
 char buffer[BUFFER_SIZE];
 ssize_t bytesR = read(ffrom, buffer, BUFFER_SIZE);
 ssize_t bytesW;
