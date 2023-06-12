@@ -1,0 +1,12 @@
+<h1>0x15. C - File I/O</h1>
+
+<table>
+    <tr>
+        <td><h2><strong>FILE</strong></h2></td>
+        <td><h2><strong>DESCRIPTION</strong></h2></td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/main.h" target="_blank">main.h</a></h2></td>
+        <td>The header file containing all functions prototypes.</td>
+    </tr>
+</table>
