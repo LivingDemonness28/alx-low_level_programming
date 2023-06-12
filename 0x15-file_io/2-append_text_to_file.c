@@ -14,7 +14,7 @@
 int append_text_to_file(const char *filename, char *text_content)
 {
 int file = open(filename, O_WRONLY | O_APPEND);
-ssize_t byesW;
+ssize_t bytesW;
 size_t len;
 
 if (filename == NULL)
