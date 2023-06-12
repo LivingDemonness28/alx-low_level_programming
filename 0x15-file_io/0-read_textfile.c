@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdlib.h>
+#include <stddef.h>
 
 /**
  * read_textfile - Read text file print to STDOUT.
