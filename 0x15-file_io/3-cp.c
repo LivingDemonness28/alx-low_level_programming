@@ -53,7 +53,7 @@ if (close(ffrom) == -1)
 error(100, "Error: Can't closefd %d\n", ffrom);
 
 if (close(fto) == -1)
-error(100,"Error: Can't close fd %d\n", fto);
+error(100, "Error: Can't close fd %d\n", fto);
 
 return (0);
 }
