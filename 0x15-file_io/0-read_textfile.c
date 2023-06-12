@@ -1,10 +1,10 @@
 #include "main.h"
+#include <stddef.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdlib.h>
-#include <stddef.h>
 
 /**
  * read_textfile - Read text file print to STDOUT.
