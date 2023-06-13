@@ -16,6 +16,8 @@ if (!buff)
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file);
 exit(99);
 }
+
+return (buff);
 }
 
 /**
@@ -26,7 +28,7 @@ void cf(int file_desc)
 {
 int i = close(file_desc);
 
-if (file_desc == -1)
+if (i == -1)
 {
 dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_desc);
 exit(100);
@@ -46,6 +48,12 @@ int ffrom = open(argv[1], O_RDONLY);
 int bytesR = read(ffrom, buff, 1024);
 int fto = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 int bytesW;
+
+if (argc != 3)
+{
+dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+exit(97);
+}
 
 do {
 if (ffrom == -1 || bytesR == -1)
