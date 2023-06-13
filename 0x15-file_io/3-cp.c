@@ -47,8 +47,7 @@ int bytesR = read(ffrom, buff, 1024);
 int fto = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 int bytesW;
 
-do
-{
+do {
 if (ffrom == -1 || bytesR == -1)
 {
 dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
