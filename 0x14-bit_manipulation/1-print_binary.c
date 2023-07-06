@@ -9,15 +9,13 @@
 void print_binary(unsigned long int n)
 {
 unsigned long int bit;
-int one = 0, i;
+int one = 0, i = sizeof(n) * 8 - 1;
 
 if (n == 0)
 {
 _putchar('0');
 return;
 }
-
-i = sizeof(n) * 8 - 1;
 
 while (i >= 0)
 {
