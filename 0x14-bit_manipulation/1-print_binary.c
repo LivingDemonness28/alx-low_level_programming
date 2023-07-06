@@ -13,7 +13,7 @@ int one = 0, i = sizeof(n) * 8 - 1;
 
 if (n == 0)
 {
-_putchar('0');
+putchar('0');
 return;
 }
 
@@ -22,12 +22,12 @@ while (i >= 0)
 bit = 1UL << i;
 if (n & bit)
 {
-_putchar('1');
+putchar('1');
 one = 1;
 }
 else if (one)
 {
-_putchar('0');
+putchar('0');
 }
 i--;
 }
