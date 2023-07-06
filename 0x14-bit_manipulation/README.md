@@ -10,10 +10,6 @@
         <td>The header file containing all functions prototypes.</td>
     </tr>
     <tr>
-        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/_putchar.c" target="_blank">_putchar.c</a></h2></td>
-        <td>The putchar function file.</td>
-    </tr>
-    <tr>
         <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-main.c" target="_blank">0-main.c</a></h2>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c" target="_blank">0-binary_to_uint.c</a></h2>
