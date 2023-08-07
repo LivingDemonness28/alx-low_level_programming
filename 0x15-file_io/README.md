@@ -61,6 +61,7 @@
         <td>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/2-main.c" target="_blank">2-main.c</a></h2>
             <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/2-append_text_to_file.c" target="_blank">2-append_text_to_file.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/hello" target="_blank">hello</a></h2>
         </td>
         <td>
             <p>Write a function that appends text at the end of a file.</p>
@@ -77,5 +78,38 @@
     <tr>
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/c" target="_blank">c</a></h2></td>
         <td>Excutable file for Task 2.</td>
+    </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/3-cp.c" target="_blank">3-cp.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/incitatous" target="_blank">incitatous</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/Incitatous" target="_blank">Incitatous</a></h2>
+        </td>
+        <td>
+            <p>Write a function that appends text at the end of a file.</p>
+            <ul>
+                <li>Usage: cp file_from file_to</li>
+                <li>if the number of argument is not the correct one, exit with code 97 and print Usage: cp file_from file_to, followed by a new line, on the POSIX standard error if file_to already exists, truncate it</li>
+                <li>if file_from does not exist, or if you can not read it, exit with code 98 and print Error: Can't read from file NAME_OF_THE_FILE, followed by a new line, on the POSIX standard error</li>
+                <ul>
+                    <li>where NAME_OF_THE_FILE is the first argument passed to your program</li>
+                </ul>
+                <li>if you can not create or if write to file_to fails, exit with code 99 and print Error: Can't write to NAME_OF_THE_FILE, followed by a new line, on the POSIX standard error</li>
+                <ul>
+                    <li>where NAME_OF_THE_FILE is the second argument passed to your program</li>
+                </ul>
+                <li>if you can not close a file descriptor , exit with code 100 and print Error: Can't close fd FD_VALUE, followed by a new line, on the POSIX standard error</li>
+                <ul>
+                    <li>where FD_VALUE is the value of the file descriptor</li>
+                </ul>
+                <li>Permissions of the created file: rw-rw-r--. If the file already exists, do not change the permissions</li>
+                <li>You must read 1,024 bytes at a time from the file_from to make less system calls. Use a buffer</li>
+                <li>You are allowed to use dprintf</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/cp" target="_blank">cp</a></h2></td>
+        <td>Excutable file for Task 3.</td>
     </tr>
 </table>
