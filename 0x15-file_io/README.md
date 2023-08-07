@@ -57,4 +57,25 @@
         <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/b" target="_blank">b</a></h2></td>
         <td>Excutable file for Task 1.</td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/2-main.c" target="_blank">2-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/2-append_text_to_file.c" target="_blank">2-append_text_to_file.c</a></h2>
+        </td>
+        <td>
+            <p>Write a function that appends text at the end of a file.</p>
+            <ul>
+                <li>Prototype: int append_text_to_file(const char *filename, char *text_content);</li>
+                <li>where filename is the name of the file and text_content is the NULL terminated string to add at the end of the file</li>
+                <li>Return: 1 on success and -1 on failure</li>
+                <li>Do not create the file if it does not exist</li>
+                <li>If filename is NULL return -1</li>
+                <li>If text_content is NULL, do not add anything to the file. Return 1 if the file exists and -1 if the file does not exist or if you do not have the required permissions to write the file</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/blob/master/0x15-file_io/c" target="_blank">c</a></h2></td>
+        <td>Excutable file for Task 2.</td>
+    </tr>
 </table>
