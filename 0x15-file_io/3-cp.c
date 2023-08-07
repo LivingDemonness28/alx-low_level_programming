@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * buffer - Allocates 1024 bytes for a buffer
