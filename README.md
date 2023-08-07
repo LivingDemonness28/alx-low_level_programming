@@ -70,4 +70,68 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings" target="_blanket">0x07-pointers_arrays_strings</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x08-recursion" target="_blanket">0x08+recursion</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x09-static_libraries" target="_blanket">0x09-static_libraries</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x10-variadic_functions" target="_blanket">0x10-variadic_functions</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x12-singly_linked_lists" target="_blanket">0x12-singly_linked_lists</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x13-more-singly_linked_lists" target="_blanket">0x13-more_singly_linked_lists</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x14-bit_manipulation" target="_blanket">0x14-bit_manipulation</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><h2><a href="https://github.com/LivingDemonness28/alx-low_level_programming/tree/master/0x15-file_io" target="_blanket">0x15-file_io</a></h2></td>
+        <td>
+            <ul>
+                <li></li>
+            </ul>
+        </td>
+    </tr>
 </table>
