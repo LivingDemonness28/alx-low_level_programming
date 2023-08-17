@@ -6,7 +6,7 @@
  * @n: int for new node to contain.
  * Return: address of new node (Success)
 */
-dlistint_t add_dnodeint(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 dlistint_t *nn = malloc(sizeof(dlistint_t));
 
