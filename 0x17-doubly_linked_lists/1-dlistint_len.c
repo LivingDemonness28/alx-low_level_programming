@@ -7,7 +7,7 @@
 */
 size_t dlistint_len(const dlistint_t *h)
 {
-size_t n = 0
+size_t n = 0;
 
 for (; h; n++)
 {
