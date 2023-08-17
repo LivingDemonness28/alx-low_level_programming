@@ -14,5 +14,5 @@ for (; h; n++)
 printf("%d\n", h->n);
 h = h->next;
 }
-return (n)
+return (n);
 }
