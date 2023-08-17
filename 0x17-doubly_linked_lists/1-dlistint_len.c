@@ -3,7 +3,7 @@
 /**
  * dlistint_len - counts elements in a dlistint list.
  * @h: head.
- * Returns: num of elements in list.
+ * Return: num of elements in list.
 */
 size_t dlistint_len(const dlistint_t *h)
 {
