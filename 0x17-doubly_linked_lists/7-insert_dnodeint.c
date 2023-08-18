@@ -23,7 +23,7 @@ idx--;
 }
 
 if (!(current->next))
-return (add_dnodeint_end(h n));
+return (add_dnodeint_end(h, n));
 
 if (!nn)
 return (NULL);
