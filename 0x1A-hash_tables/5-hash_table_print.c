@@ -28,7 +28,7 @@ while (n)
 printf("'%s': '%s'", n->key, n->value);
 n = n->next;
 if (n)
-print(", ")
+print(", ");
 }
 cf = 1;
 }
