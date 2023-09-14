@@ -18,7 +18,7 @@ return (NULL);
 
 nt->size = size;
 nt->array = malloc(sizeof(hash_node_t *) * size);
-if (!nt->array)
+if (!(nt->array))
 {
 free(nt);
 return (NULL);
