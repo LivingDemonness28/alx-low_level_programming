@@ -9,18 +9,19 @@
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
+char *now;
 hash_node_t *nn;
-char *now = strdup(value);
-unsigned long int ind = key_index((const unsigned char *)key, ht->size);
-unsigned long int a = ind;
+unsigned long int ind, a;
 
 if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 return (0);
 
+now = strdup(value);
 if (now == NULL)
 return (0);
 
-for (; ht->array[a]; a++)
+ind = key_index((const unsigned char *)key, ht->size);
+for (a = ind; ht->array[a]; a++)
 {
 if (strcmp(ht->array[a]->key, key) == 0)
 {
