@@ -123,7 +123,7 @@ n = ht->shead;
 while (n != NULL && strcmp(n->key, key) != 0)
 n = n->snext;
 
-return ((node == NULL) ? NULL : node->value);
+return ((n == NULL) ? NULL : n->value);
 }
 
 /**
