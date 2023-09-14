@@ -69,7 +69,7 @@ unsigned long int size;
 shash_node_t **array;
 shash_node_t *shead;
 shash_node_t *stail;
-} shash_table_t
+} shash_table_t;
 
 hash_table_t *hash_table_create(unsigned long int size);
 unsigned long int hash_djb2(const unsigned char *str);
