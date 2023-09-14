@@ -92,8 +92,8 @@ else
 curr = ht->shead;
 while (curr->snext != NULL && strcmp(curr->snext->key, key) < 0)
 curr = curr->snext;
-new->sprev = curr;
-new->snext = curr->snext;
+nn->sprev = curr;
+nn->snext = curr->snext;
 if (curr->snext == NULL)
 ht->stail = nn;
 else
