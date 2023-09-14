@@ -37,7 +37,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 {
 char *now;
 shash_node_t *nn, *curr;
-unsigned long int ind, a;
+unsigned long int ind;
 
 if (!ht || !key || *key == '\0' || !value)
 return (0);
