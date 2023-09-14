@@ -35,7 +35,7 @@ return (nt);
 int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 {
 char *now;
-shash_node_t *nn, *curr;
+shash_node_t *nn = malloc(sizeof(shash_node_t)), *curr;
 unsigned long int ind;
 
 if (ht == NULL|| key == NULL || *key == '\0' || value == NULL)
@@ -46,8 +46,7 @@ if (now == NULL)
 return (0);
 
 ind = key_index((const unsigned char *)key, ht->size);
-curr = ht->shead;
-while (curr)
+for (curr = ht->shead; curr; curr = curr->snext)
 {
 if (strcmp(curr->key, key) == 0)
 {
@@ -55,10 +54,8 @@ free(curr->value);
 curr->value = now;
 return (1);
 }
-curr = curr->snext;
 }
 
-nn = malloc(sizeof(shash_node_t));
 if (nn == NULL)
 {
 free(now);
@@ -101,7 +98,6 @@ else
 curr->snext->sprev = nn;
 curr->snext = nn;
 }
-
 return (1);
 }
 
@@ -124,19 +120,10 @@ if (ind >= ht->size)
 return (NULL);
 
 n = ht->shead;
-while (n && strcmp(n->key, key) != 0)
-{
+while (n != NULL && strcmp(n->key, key) != 0)
 n = n->snext;
-}
 
-if (n == NULL)
-{
-return (NULL);
-}
-else
-{
-return (n->value);
-}
+return ((node == NULL) ? NULL : node->value);
 }
 
 /**
@@ -151,8 +138,8 @@ shash_node_t *n;
 if (ht == NULL)
 return;
 
-printf("{");
 n = ht->shead;
+printf("{");
 while (n != NULL)
 {
 printf("'%s': '%s'", n->key, n->value);
@@ -176,8 +163,8 @@ shash_node_t *n;
 if (ht == NULL)
 return;
 
-printf("{");
 n = ht->shead;
+printf("{");
 while (n != NULL)
 {
 printf("'%s': '%s'", n->key, n->value);
