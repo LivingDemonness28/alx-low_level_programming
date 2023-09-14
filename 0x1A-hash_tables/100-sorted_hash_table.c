@@ -122,7 +122,7 @@ ind = key_index((const unsigned char *)key, ht->size);
 if (ind >= ht->size)
 return (NULL);
 
-for (n = ht->shead; n && strcmp(n->key, key) != 0; n = n->next)
+for (n = ht->shead; n && strcmp(n->key, key) != 0; n = n->snext)
 {
 }
 
