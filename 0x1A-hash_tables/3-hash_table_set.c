@@ -45,6 +45,6 @@ return (0);
 }
 nn->value = now;
 nn->next = ht->array[ind];
-ht->array[ind] = now;
+ht->array[ind] = nn;
 return (1);
 }
