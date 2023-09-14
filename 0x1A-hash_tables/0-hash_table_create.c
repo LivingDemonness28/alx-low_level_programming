@@ -17,9 +17,8 @@ nt->size = size;
 nt->array = malloc(sizeof(hash_node_t *) * size);
 if (nt->array == NULL)
 return (NULL);
-while (a < size)
+for (; a < size; a++)
 nt->array[a] = NULL;
-a++;
 
 return (nt);
 }
