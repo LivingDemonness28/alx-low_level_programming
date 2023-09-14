@@ -16,14 +16,10 @@ return (NULL);
 nt->size = size;
 nt->array = malloc(sizeof(hash_node_t *) * size);
 if (nt->array == NULL)
-{
 return (NULL);
-}
-
 while (a < size)
-{
 nt->array[a] = NULL;
 a++;
-}
+
 return (nt);
 }
