@@ -20,7 +20,7 @@ return (0);
 if (now == NULL)
 return (0);
 
-while (ht->array[a])
+for (; ht->array[a]; a++)
 {
 if (strcmp(ht->array[a]->key, key) == 0)
 {
@@ -28,7 +28,6 @@ free(ht->array[a]->value);
 ht->array[a]->value = now;
 return (1);
 }
-a++;
 }
 
 nn = malloc(sizeof(hash_node_t));
