@@ -153,7 +153,7 @@ return;
 
 printf("{");
 n = ht->shead;
-while (n)
+while (n != NULL)
 {
 printf("'%s': '%s'", n->key, n->value);
 n = n->snext;
@@ -178,7 +178,7 @@ return;
 
 printf("{");
 n = ht->shead;
-while (n)
+while (n != NULL)
 {
 printf("'%s': '%s'", n->key, n->value);
 n = n->sprev;
