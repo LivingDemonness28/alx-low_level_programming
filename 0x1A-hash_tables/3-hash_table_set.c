@@ -14,10 +14,10 @@ char *now = strdup(value);
 unsigned long int ind = key_index((const unsigned char *)key, ht->size);
 unsigned long int a = ind;
 
-if (!ht || !key || *key == '\0' || !value)
+if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 return (0);
 
-if (!now)
+if (now == NULL)
 return (0);
 
 while (ht->array[a])
@@ -32,13 +32,13 @@ a++;
 }
 
 nn = malloc(sizeof(hash_node_t));
-if (!nn)
+if (nn == NULL)
 {
 free(now);
 return (0);
 }
 nn->key = strdup(key);
-if (!(nn->key))
+if (nn->key == NULL)
 {
 free(nn);
 return (0);
