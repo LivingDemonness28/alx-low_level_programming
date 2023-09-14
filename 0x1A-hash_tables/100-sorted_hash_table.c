@@ -151,8 +151,8 @@ shash_node_t *n;
 if (!ht)
 return;
 
-printf("{");
 n = ht->shead;
+printf("{");
 while (n)
 {
 printf("'%s': '%s'", n->key, n->value);
@@ -176,8 +176,8 @@ shash_node_t *n;
 if (!ht)
 return;
 
-printf("{");
 n = ht->shead;
+printf("{");
 while (n)
 {
 printf("'%s': '%s'", n->key, n->value);
