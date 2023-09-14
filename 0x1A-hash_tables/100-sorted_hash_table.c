@@ -141,7 +141,7 @@ return (n->value);
  * @ht: ptr to sorted hash table.
  * Return: Nothing
 */
-void hash_table_print(const shash_table_t *ht)
+void shash_table_print(const shash_table_t *ht)
 {
 shash_node_t *n;
 
@@ -159,7 +159,7 @@ printf("}\n");
 }
 
 /**
- * shash_table_print - print a sorted hash table
+ * shash_table_print_rev - print a sorted hash table
  * in reverse.
  * @ht: ptr to sorted hash table.
  * Return: Nothing
