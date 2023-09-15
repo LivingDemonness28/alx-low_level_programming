@@ -25,8 +25,7 @@ return (nt);
 }
 
 /**
- * shash_table_set - Add or update an element in a
- * sorted hash table.
+ * shash_table_set - Add or update an element in a sorted hash table.
  * @ht: Ptr to the sorted hash table.
  * @key: The key to add.
  * @value: Key value.
@@ -151,8 +150,7 @@ printf("}\n");
 }
 
 /**
- * shash_table_print_rev - print a sorted hash table
- * in reverse.
+ * shash_table_print_rev - print a sorted hash table in reverse.
  * @ht: ptr to sorted hash table.
  * Return: Nothing
 */
