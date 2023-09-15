@@ -115,11 +115,9 @@ return (NULL);
 ind = key_index((const unsigned char *)key, ht->size);
 if (ind >= ht->size)
 return (NULL);
-
 n = ht->shead;
 while (n != NULL && strcmp(n->key, key) != 0)
 n = n->snext;
-
 return ((n == NULL) ? NULL : n->value);
 }
 
