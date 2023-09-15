@@ -16,7 +16,7 @@ a++;
 }
 a--;
 
-for(; b < a; b++, a--)
+for (; b < a; b++, a--)
 {
 now = *(n + b);
 *(n + b) = *(n + a);
@@ -51,11 +51,11 @@ while (b >= 0 || a >= 0 || carry == 1)
 if (a < 0)
 digit1 = 0;
 else
-digit1 = *(n1 + a) - '0';
+digit1 = *(n1 + a) -'0';
 if (b < 0)
 digit2 = 0;
 else
-digit2 = *(n2 + b) - '0';
+digit2 = *(n2 + b) -'0';
 total = digit1 + digit2 + carry;
 if (total >= 10)
 carry = 1;
