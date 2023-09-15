@@ -56,9 +56,10 @@ return (1);
 }
 
 if (nn == NULL)
+{
 free(now);
 return (0);
-
+}
 nn->key = strdup(key);
 if (nn->key == NULL)
 {
