@@ -38,7 +38,7 @@ char *now;
 shash_node_t *nn = malloc(sizeof(shash_node_t)), *curr;
 unsigned long int ind;
 
-if (ht == NULL|| key == NULL || *key == '\0' || value == NULL)
+if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 return (0);
 
 now = strdup(value);
