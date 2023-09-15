@@ -10,7 +10,10 @@ void rev_string(char *n)
 int a = 0, b = 0;
 char now;
 
-for (; *(n + 1) != '\0'; a++);
+while (*(n + 1) != '\0')
+{
+a++;
+}
 a--;
 
 for(; b < a; b++, a--)
@@ -34,14 +37,16 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 int carry = 0, a = 0, b = 0, digs = 0;
 int digit1 = 0, digit2 = 0, total = 0;
 
-for (; *(n1 + a) != '\0'; a++);
-for (; *(n2 + b) != '\0'; b++);
+while (*(n1 + a) != '\0')
+a++;
+while (*(n2 + b) != '\0')
+b++;
 a--;
 b--;
 
 if (b >= size_r || a >= size_r)
 return (0);
-for (; b >= 0 || a >= 0 || carry == 1;)
+while (b >= 0 || a >= 0 || carry == 1)
 {
 if (a < 0)
 digit1 = 0;
