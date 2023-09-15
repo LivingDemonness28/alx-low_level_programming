@@ -8,7 +8,7 @@
 shash_table_t *shash_table_create(unsigned long int size)
 {
 shash_table_t *nt = malloc(sizeof(shash_table_t));
-unsigned long int a = 0;
+unsigned long int a;
 
 if (nt == NULL)
 return (NULL);
@@ -17,7 +17,7 @@ nt->size = size;
 nt->array = malloc(sizeof(shash_node_t *) * size);
 if (nt->array == NULL)
 return (NULL);
-for (; a < size; a++)
+for (a = 0; a < size; a++)
 nt->array[a] = NULL;
 nt->shead = NULL;
 nt->stail = NULL;
@@ -48,11 +48,9 @@ ind = key_index((const unsigned char *)key, ht->size);
 for (curr = ht->shead; curr; curr = curr->snext)
 {
 if (strcmp(curr->key, key) == 0)
-{
 free(curr->value);
 curr->value = now;
 return (1);
-}
 }
 
 if (nn == NULL)
