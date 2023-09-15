@@ -69,7 +69,6 @@ return (0);
 nn->value = now;
 nn->next = ht->array[ind];
 ht->array[ind] = nn;
-
 if (ht->shead == NULL)
 {
 nn->sprev = NULL;
@@ -113,7 +112,6 @@ unsigned long int ind;
 
 if (ht == NULL || key == NULL || *key == '\0')
 return (NULL);
-
 ind = key_index((const unsigned char *)key, ht->size);
 if (ind >= ht->size)
 return (NULL);
