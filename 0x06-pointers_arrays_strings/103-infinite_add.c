@@ -13,7 +13,7 @@ char now;
 for (; *(n + 1) != '\0'; a++);
 a--;
 
-for(; b < a; b++; a--)
+for(; b < a; b++, a--)
 {
 now = *(n + b);
 *(n + b) = *(n + a);
