@@ -48,16 +48,17 @@ ind = key_index((const unsigned char *)key, ht->size);
 for (curr = ht->shead; curr; curr = curr->snext)
 {
 if (strcmp(curr->key, key) == 0)
+{
 free(curr->value);
 curr->value = now;
 return (1);
 }
+}
 
 if (nn == NULL)
-{
 free(now);
 return (0);
-}
+
 nn->key = strdup(key);
 if (nn->key == NULL)
 {
