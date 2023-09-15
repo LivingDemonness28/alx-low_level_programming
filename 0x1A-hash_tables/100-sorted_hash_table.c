@@ -132,7 +132,6 @@ shash_node_t *n;
 
 if (ht == NULL)
 return;
-
 n = ht->shead;
 printf("{");
 while (n != NULL)
