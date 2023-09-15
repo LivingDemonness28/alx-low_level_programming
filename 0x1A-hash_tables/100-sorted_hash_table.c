@@ -94,6 +94,7 @@ if (curr->snext == NULL)
 ht->stail = nn;
 else
 curr->snext->sprev = nn;
+
 curr->snext = nn;
 }
 return (1);
