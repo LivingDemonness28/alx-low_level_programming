@@ -12,7 +12,7 @@ int a = 0, b = 0, c = 0;
 while (str[b] != '\0')
 {
 if (str[b] == ' ')
-s = 0;
+a = 0;
 else if (a == 0)
 {
 a = 1;
