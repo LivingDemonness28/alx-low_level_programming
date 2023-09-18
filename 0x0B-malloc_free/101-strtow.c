@@ -33,7 +33,8 @@ char **strtow(char *str)
 int a = 0, b = 0, w, c = 0, length = 0, s, e;
 char **arr, *now;
 
-for (; *(str + length); length++);
+for (; *(str + length); length++)
+;
 w = cw(str++);
 if (w == 0)
 return (NULL);
@@ -52,7 +53,8 @@ e = a;
 now = (char *) malloc(sizeof(char) * (c + 1));
 if (now == NULL)
 return (NULL);
-for (; s < e; *now++ = str[s++]);
+for (; s < e; *now++ = str[s++])
+;
 *now = '\0';
 arr[b] = now - c;
 b++;
