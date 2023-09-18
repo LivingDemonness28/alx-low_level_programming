@@ -42,7 +42,7 @@ arr = (char **) malloc(sizeof(char *) * (w + 1));
 if (arr == NULL)
 return (NULL);
 
-while (i <= length)
+while (a <= length)
 {
 if (str[a] == ' ' || str[a] == '\0')
 {
