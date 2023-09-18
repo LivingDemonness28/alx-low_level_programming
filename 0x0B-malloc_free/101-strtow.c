@@ -1,56 +1,67 @@
 #include "main.h"
 
 /**
+ * cw - count num of words in a string.
+ * @str: string.
+ * Return: word count.
+*/
+int cw(char *str)
+{
+int a = 0, b = 0, c = 0;
+
+while (str[b] != '\0')
+{
+if (str[b] == ' ')
+s = 0;
+else if (a == 0)
+{
+a = 1;
+c++;
+}
+b++;
+}
+return (c);
+}
+
+/**
  * strtow - concatenates all the arguments of your program
  *@str: string
  * Return: a pointer to a new string
  */
 char **strtow(char *str)
 {
-int i = 0, w = 0, j = 0, k, count = 0, m, wordf;
-char **arr1, *x;
+int a = 0, b = 0, w, c = 0, length = 0, s, e;
+char **arr, *now;
 
-if (*str == '\0' || str == NULL)
+for (; *(str + length); length++);
+w = cw(str);
+if (w == 0)
 return (NULL);
-for (i = 0; str[i] != '\0'; i++)
-{
-if (str[i] == ' ' && (str[i + 1] != ' ' || str[i + 1] == '\0'))
-w++;
-}
-arr1 = (char **)malloc((w + 1) * sizeof(char *));
-if (arr1 == NULL)
+
+arr = (char **)malloc(sizeof(char * ) * (w + 1));
+if (arr == NULL)
 return (NULL);
-for (wordf = 0; str[wordf] && j <= w; wordf++)
+
+for (; a <= length; a++)
 {
-count = 0;
-if (str[wordf] != ' ')
+if (str[a] == ' ' || str[a] == '\0')
 {
-for (i = wordf ; str[i] != '\0'; i++)
+if (c)
 {
-if (str[i] == ' ')
-break;
-count++;
-}
-*(arr1 + j) = (char *)malloc((count + 1) * sizeof(char));
-if (*(arr1 + j) == NULL)
-{
-for (k = 0; k <= j; k++)
-{
-x = arr1[k];
-free(x);
-}
-free(arr1);
+e = a;
+now = (char *)malloc(sizeof(char) * (c + 1));
+if (now == NULL)
 return (NULL);
-}
-for (m = 0; wordf < i; wordf++)
-{
-arr1[j][m] = str[wordf];
-m++;
-}
-arr1[j][m] = '\0';
-j++;
+for (; s < e; *now++ = str[s++]);
+*now = '\0';
+arr[b] = now - c;
+b++;
+c = 0;
 }
 }
-arr1[j] = NULL;
-return (arr1);
+else if (c++ = 0)
+s = a;
+}
+arr[b] = NULL;
+return (arr);
 }
