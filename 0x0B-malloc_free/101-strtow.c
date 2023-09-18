@@ -34,22 +34,22 @@ int a = 0, b = 0, w, c = 0, length = 0, s, e;
 char **arr, *now;
 
 for (; *(str + length); length++);
-w = cw(str);
+w = cw(str++);
 if (w == 0)
 return (NULL);
 
-arr = (char **)malloc(sizeof(char * ) * (w + 1));
+arr = (char **) malloc(sizeof(char *) * (w + 1));
 if (arr == NULL)
 return (NULL);
 
-for (; a <= length; a++)
+while (i <= length)
 {
 if (str[a] == ' ' || str[a] == '\0')
 {
 if (c)
 {
 e = a;
-now = (char *)malloc(sizeof(char) * (c + 1));
+now = (char *) malloc(sizeof(char) * (c + 1));
 if (now == NULL)
 return (NULL);
 for (; s < e; *now++ = str[s++]);
@@ -59,8 +59,9 @@ b++;
 c = 0;
 }
 }
-else if (c++ = 0)
+else if (c++ == 0)
 s = a;
+a++;
 }
 arr[b] = NULL;
 return (arr);
