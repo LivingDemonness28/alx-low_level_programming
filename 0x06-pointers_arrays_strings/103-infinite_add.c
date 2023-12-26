@@ -2,76 +2,48 @@
 #include <stdio.h>
 
 /**
- * rev_string - reverse the characters in that array.
- * @n: The characters to reverse.
- * Return: Nothing.
-*/
-void rev_string(char *n)
-{
-int a = 0, b = 0;
-char now;
-
-while (*(n + 1) != '\0')
-{
-a++;
-}
-a--;
-
-for (; b < a; b++, a--)
-{
-now = *(n + b);
-*(n + b) = *(n + a);
-*(n + a) = now;
-}
-}
-
-/**
- * infinite_add - add two nums together.
- * @n1: string representation of first number
- * @n2: string representation of second number
- * @r: ptr to buffer
- * @size_r: buffer size
- * Return: Ptr to function
-*/
+ * infinite_add - adds two numbers
+ * @n1: number one.
+ * @n2: number two.
+ * @r: buffer that the function will use to store the result.
+ * @size_r: buffer size.
+ * Return: the pointer to dest.
+ */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-int carry = 0, a = 0, b = 0, digs = 0;
-int digit1 = 0, digit2 = 0, total = 0;
+int len1 = 0, len2 = 0, digit1, digit2, sum, carry = 0;
 
-while (*(n1 + a) != '\0')
-a++;
-while (*(n2 + b) != '\0')
-b++;
-a--;
-b--;
+while (n1[len1] != '\0')
+len1++;
+while (n2[len2] != '\0')
+len2++;
 
-if (b >= size_r || a >= size_r)
-return (0);
-while (b >= 0 || a >= 0 || carry == 1)
-{
-if (a < 0)
-digit1 = 0;
-else
-digit1 = *(n1 + a) -'0';
-if (b < 0)
-digit2 = 0;
-else
-digit2 = *(n2 + b) -'0';
-total = digit1 + digit2 + carry;
-if (total >= 10)
-carry = 1;
-else
-carry = 0;
-if (digs >= (size_r - 1))
-return (0);
-*(r + digs) = (total % 10) + '0';
-digs++;
-b--;
-a--;
+if (size_r <= len1 + 1 || size_r <= len2 + 1)
+return (NULL);
+
+r[len1 + 1] = '\0'; 
+
+len1--, len2--, size_r--;
+
+while (size_r >= 0) {
+digit1 = (len1 >= 0) ? n1[len1] - '0' : 0;
+digit2 = (len2 >= 0) ? n2[len2] - '0' : 0;
+
+sum = digit1 + digit2 + carry;
+carry = sum / 10;
+
+r[size_r] = (sum % 10) + '0';
+
+if (len1 > 0)
+len1--;
+if (len2 > 0)
+len2--;
+
+size_r--;
 }
-if (digs == size_r)
-return (0);
-*(r + digs) = '\0';
-rev_string(r);
+
+if (*r == '0')
+return (r + 1);
+else
 return (r);
 }
